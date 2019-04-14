@@ -36,9 +36,3 @@ while times:
     else:
         print("输入数字")
 print(secert)
-print(secert)
-print(secert)
-print(secert)
-print(secert)
-print(secert)
-print(secert)
