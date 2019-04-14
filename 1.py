@@ -35,5 +35,5 @@ while times:
             times = times - 1
     else:
         print("输入数字")
-print(secert)
+print(secer)
 
