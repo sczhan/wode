@@ -37,3 +37,4 @@ while times:
         print("输入数字")
 print(secert)
 print(secert)
+print(secert)
