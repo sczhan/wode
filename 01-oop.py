@@ -37,5 +37,26 @@ class PythonStudent():
 yue = PythonStudent()
 print(yue.name)
 print(yue.age)
-# 注意成员函数的调用没有传递进入参数
+# 注意成员函数的调用没有
+# 传递进入参数
 yue.doHomeWork()
+
+print(PythonStudent.__dict__)
+print(yue.__dict__)
+
+
+class Person():
+    # name 是共有的成员
+    name = "liu"
+    # __age就是私有成员
+    __age = 18
+
+
+p = Person()
+# name 是公有变量
+print(p.name)
+# __age是私有变量
+# # 注意报错信息
+# print(p.__age)
+print(Person.__dict__)
+print(p._Person__age)
