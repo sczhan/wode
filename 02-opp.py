@@ -140,3 +140,7 @@ print(p.name)
 # print(p.__age)
 print(Person.__dict__)
 print(p._Person__age)
+
+
+
+
