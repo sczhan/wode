@@ -1,5 +1,69 @@
 
-# sort()排序,从小到大
+help(list)
+# append() 向列表末尾添加新元素,返回值None
+list1 = [1, 2, 3]
+print(list1.append(5))
+print(list1)
+print("*"*20)
+
+# copy() 复制列表
+list2 = [1, 2, 3]
+list3 = list2.copy()
+print(list3)
+print("*"*20)
+
+# count() 计算某个元素在列表中出现的次数
+list4 = [1, 2, 3, 1, 1, 1]
+print(list4.count(1))
+print("*"*20)
+
+# extend() 将一个列表继承另一个列表
+list5 = [4, 5, 6, 7]
+list6 = [1, 2, 2]
+list6.extend(list5)
+# list7 = list6.extend(list5)
+# print(list7)   打印 None
+print(list5)
+print(list6)
+print(list6 + list5)
+print("*"*20)
+
+# index() 获取在列表中的索引,只查找第一次
+list8 = [1, 3, 5, 7, 1]
+print(list8.index(3))
+print(list8.index(1, 2, 8))
+print("*"*20)
+
+# insert() 在指定位置插入  (2个参数)
+list9 = [1, 2, 3]
+list9.insert(2, 4)
+print(list9)
+print("*"*20)
+
+# pop() 根据索引移除列表内一个元素,不给索引默认移除最后一个  返回移除的值
+list10 = [1, 2, 3]
+a = list10.pop(0)
+print(a)
+print(list10)
+a1 = list10.pop()
+print(a1)
+print(list10)
+print("*"*20)
+
+# remove() 移除列表中指定的值  返回None
+list11 = [1, 2, 3]
+print(list11.remove(1))
+print(list11)
+print("*"*20)
+
+# reverse() 列表反转
+list12 = [1, 2, 3]
+print(list12.reverse())
+print(list12)
+print("*"*20)
+
+
+# sort()排序,默认从小到大
 list12 = [1, 5, 7, 4, 3]
 print(list12.sort())
 print(list12)
