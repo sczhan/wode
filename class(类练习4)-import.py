@@ -59,9 +59,39 @@ if game == "1":
 elif game == "2":
     mm = input("请输入字母: ")
     b = class_类练习_04_zimu_game.Game_zimu()
-    getattr(b, mm)()   # getattr()通过字符串调用同名函数
+
+    # 方法1  getattr() 是 python 的内建函数，getattr(object,name) 就相当于 object.name，但是这里 name 可以为变量。
+    # getattr(b, mm)()   # getattr()通过字符串调用同名函数
+
+    # 方法2
+    # from operator import methodcaller
+    # methodcaller(mm)(b)
+
+    #  下面三个适合用于没有class 只有函数
+    # def a():
+    #     for i in range(5):
+    #         # 判断开始输入的位置
+    #         for j in range(4 - i):
+    #             print(" ", end="")
+    #         # 控制行
+    #         for j in range(i + 1):
+    #             if i == 0 or i == 2:
+    #                 print("* ", end="")
+    #                 continue
+    #             if j == i or j == 0:
+    #                 print("* ", end="")
+    #                 continue
+    #             else:
+    #                 print("  ", end="")
+    #         print()
+    # eval(mm)()
+
+    # globals()[mm]()
+
+    # locals()[mm]()
 
 
 else:
     print("退出")
+
 
