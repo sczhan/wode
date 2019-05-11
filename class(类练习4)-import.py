@@ -61,7 +61,7 @@ elif game == "2":
     b = class_类练习_04_zimu_game.Game_zimu()
 
     # 方法1  getattr() 是 python 的内建函数，getattr(object,name) 就相当于 object.name，但是这里 name 可以为变量。
-    # getattr(b, mm)()   # getattr()通过字符串调用同名函数
+    getattr(b, mm)()   # getattr()通过字符串调用同名函数
 
     # 方法2
     # from operator import methodcaller
