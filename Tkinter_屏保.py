@@ -106,7 +106,6 @@ class Ball(object):
         self.canvas.move(self.item, self.xvelocity, self.yvelocity)
 
 
-
 class ScreenSaver():
     """
     定义屏保的类
