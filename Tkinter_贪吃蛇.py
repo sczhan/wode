@@ -47,7 +47,7 @@ class Food(object):
         x = random.randrange(15, 480, 10)
         # 同理产生y坐标
         # 需要注意的是, 我们正给游戏屏幕一般不需要把他设置成正方形
-        y = random.randrange(5, 280, 10)
+        y = random.randrange(15, 280, 10)
         self.postion= x, y   # position存放食物位置
 
         # 队列, 就是一个不能够访问内部元素,只能从头弹出一个元素并只能从队尾追加元素list

@@ -28,9 +28,9 @@ class Ball(object):
         """
         # 球出现的初始位置要随机,此位置表示的球的圆心
         # xpos表示位置的x坐标
-        self.xpos = random.randint(10, int(scrnwidth) - 20)
+        self.xpos = random.randint(120, int(scrnwidth) - 120)
         # ypos表示位置的y坐标
-        self.ypos = random.randint(30, int(scrnheight) - 10)
+        self.ypos = random.randint(120, int(scrnheight) - 110)
         self.canvas = canvas
 
         # 定义球运动的速度
@@ -91,22 +91,22 @@ class Ball(object):
         if self.xpos + self.radius >= self.scrnwidth:
             # 撞到右边的墙
             self.xvelocity = - self.xvelocity
-            # self.xvelocity *= 1
+            # self.xvelocity *= -1
         # 同理可以判断撞别的墙
         if self.radius + self.ypos >= self.scrnheight:
             self.yvelocity = -self.yvelocity
 
         elif self.xpos < self.radius:
-            self.xvelocity = self.xvelocity
+            self.xvelocity = -self.xvelocity
 
-        elif self.radius > self.ypos:
+        elif self.ypos < self.radius:
             self.yvelocity = -self.yvelocity
 
         # 在画布上挪动图画
         self.canvas.move(self.item, self.xvelocity, self.yvelocity)
 
 
-class ScreenSaver():
+class ScreenSaver(object):
     """
     定义屏保的类
     可以被启动
@@ -123,7 +123,7 @@ class ScreenSaver():
         self.root.overrideredirect(1)
 
         # 任何鼠标移动都需要取消
-        self.root.bind("<Motion>", self.myquit)
+        self.root.bind("<Motion>", self.myquit())
         # 同理,按动任何键盘都需要退回屏保
 
         # 得到屏幕大小规格
@@ -143,18 +143,30 @@ class ScreenSaver():
         self.root.mainloop()
 
     def run_screen_saver(self):
+        """
+
+        :return:
+        """
         for ball in self.balls:
             ball.move_ball()
 
         # after是200毫秒后启动一个函数,需要启动函数的是第二个参数
         self.canvas.after(200, self.run_screen_saver)
 
-    def myquit(self, e):
+    def myquit(self):
         # 此处只是利用了事件处理机制
         # 实际上并不是关心事件的类型
         # 作业:此屏保程序一旦扩展成,一旦捕获到事件,则判断屏保不退出
         # 显示一个Button,Button上显示事件类型,点击Button后屏保才退出
+
+        # destory()销毁函数
+        ln = tkinter.Button(self.root, text="退出", background="red")
+        ln.bind("<Button-1>", self.kk)
+        ln.pack()
+
+    def kk(self, event):
         self.root.destroy()
+
 
 
 if __name__ == "__main__":
