@@ -51,6 +51,31 @@
         
 - 在oop的基础上创建小飞机,蜜蜂等,相对简单很多
 - 程序可以正常产生飞行物,包括英雄,子弹,云星等
+
+# v03
+- 1. Find some objects
+    - SmallPlane
+    - Bee
+    - BigPlane
+    - Bullet
+    - Hero
+    - Sky
+    - PlanWar
+    
+- 2. BaseClass
+      - Img, and some functions
+      - Position,  fly into screen with position(x, 0-height)
+      - move
+     
+- 3. SubClass
+    - Bee
+    - SmallPlane
+    - BigPlane
+    - Sky
+    - Bullet
+    - Hero
+    
+   
  
    
 
