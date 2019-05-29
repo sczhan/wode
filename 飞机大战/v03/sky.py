@@ -30,3 +30,6 @@ class Sky(actor.Actor):
         x = self.steps[0] * self.move_direction[0]
         y = self.steps[1] * self.move_direction[1]
         self.base_move(self.bg_image_tags, x, y)
+
+
+

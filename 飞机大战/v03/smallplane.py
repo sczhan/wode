@@ -49,3 +49,5 @@ class SmallPlane(actor.Actor):
                 image = tkinter.PhotoImage(file=self.bg_image_fullname)
                 img.append(image)
             return img
+
+

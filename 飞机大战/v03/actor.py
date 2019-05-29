@@ -263,3 +263,7 @@ class Actor(object):
             self.canvas.move(self.bg_image_tags, x, y)
             self.state = config.life_status_alive
 
+
+
+
+
