@@ -10,7 +10,7 @@ class Bee(actor.Actor):
     """
     def __init__(self, root, canvas, position, x, y, tags):
         super(self, Bee).__init__(root, canvas, position, x, y, tags, config.image_bee_width,
-                                  config.image_bee_height)
+                                  config.image_bee_height, True)
 
         # 移动者的移动步长
         self.steps = [config.step_length_bee_x, config.step_length_bee_y]
