@@ -1,4 +1,5 @@
 import tkinter
+
 import actor
 import config
 
@@ -9,8 +10,8 @@ class HeroPlane(actor.Actor):
     """
 
     def __init__(self, root, canvas, position, x, y, tags, lives):
-        super(self, HeroPlane).__init__(root, canvas, position, x, y, tags,
-                                        config.image_hero_width, config.image_hero_height, True)
+        super().__init__(root, canvas, position, x, y, tags,
+                         config.image_hero_width, config.image_hero_height, True)
 
         # 移动者的移动步长
         self.steps = [config.step_length_hero_x, config.step_length_hero_y]
@@ -21,6 +22,7 @@ class HeroPlane(actor.Actor):
         # 移动者加载背景图像
         self.bg_image_fullname = config.image_path + config.filename_hero + config.filename_suffix
         self.bg_image = tkinter.PhotoImage(file=self.bg_image_fullname)
+        self.bg_image_tags = tags
 
         # 重置生命值
         super().set_lives_num(lives)
@@ -42,9 +44,9 @@ class HeroPlane(actor.Actor):
                 and self.se[1] < config.window_boundary_row:
 
             # x/y 轴边界之内正常移动
-            x = self.steps[0] * self.move_direction[0]
-            y = self.steps[1] * self.move_direction[1]
-            self.base_mmove(self.bg_image_tags, x, y)
+            X = self.steps[0] * self.move_direction[0]
+            Y = self.steps[1] * self.move_direction[1]
+            self.base_move(self.bg_image_tags, x, y)
         else:
             # 不执行跨越边界的操作
             if self.nw[0] <= 0:
@@ -77,22 +79,22 @@ class HeroPlane(actor.Actor):
         """
         code = event.keycode
 
-        if code == 111:  # 上
-            self.move_direction = [0, -1]
-        elif code == 116:  # 下
-            self.move_direction = [0, 1]
-        elif code == 113:  # 左
-            self.move_direction = [-1, 0]
-        elif code == 114:  # 右
-            self.move_direction = [1, 0]
-        # if code == 38:  # 上
+        # if code == 111:  # 上
         #     self.move_direction = [0, -1]
-        # elif code == 40:  # 下
+        # elif code == 116:  # 下
         #     self.move_direction = [0, 1]
-        # elif code == 37:  # 左
+        # elif code == 113:  # 左
         #     self.move_direction = [-1, 0]
-        # elif code == 39:  # 右
+        # elif code == 114:  # 右
         #     self.move_direction = [1, 0]
+        if code == 38:  # 上
+            self.move_direction = [0, -1]
+        elif code == 40:  # 下
+            self.move_direction = [0, 1]
+        elif code == 37:  # 左
+            self.move_direction = [-1, 0]
+        elif code == 39:  # 右
+            self.move_direction = [1, 0]
 
     # 已方英雄跟随鼠标移动
     def follow_mouse(self, event):

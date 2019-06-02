@@ -1,5 +1,6 @@
 
 import tkinter
+
 import actor
 import config
 
@@ -17,8 +18,9 @@ class Bullet(actor.Actor):
         # 移动方向 - 向上
         self.move_direction = [0, -1]
         # 移动者加载背景图像
-        self.bg_image_fullname = config.images_path + config.filename_bullet + config.filename_suffix
+        self.bg_image_fullname = config.image_path + config.filename_bullet + config.filename_suffix
         self.bg_image = tkinter.PhotoImage(file=self.bg_image_fullname)
+        self.bg_image_tags = tags
         # # 重置生命值
         # super().set_lives_num(config.lives_num_enemy)
 

@@ -1,5 +1,6 @@
 
 import tkinter
+
 import actor
 import config
 
@@ -9,7 +10,7 @@ class Sky(actor.Actor):
     移动的天空背景
     """
     def __init__(self, root, canvas, position, x, y, tags):
-        super(self, Sky).__init__(root, canvas, position, x, y, tags, config.image_sky_width,
+        super().__init__(root, canvas, position, x, y, tags, config.image_sky_width,
                                   config.image_sky_height, False)
 
         # 移动者的移动步长

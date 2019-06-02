@@ -1,5 +1,6 @@
 
 import tkinter
+
 import actor
 import config
 
@@ -9,7 +10,7 @@ class Bee(actor.Actor):
      移动的敌军 - 小蜜蜂
     """
     def __init__(self, root, canvas, position, x, y, tags):
-        super(self, Bee).__init__(root, canvas, position, x, y, tags, config.image_bee_width,
+        super().__init__(root, canvas, position, x, y, tags, config.image_bee_width,
                                   config.image_bee_height, True)
 
         # 移动者的移动步长
@@ -17,7 +18,7 @@ class Bee(actor.Actor):
         # 移动方向 - 向下
         self.move_direction = [1, 1]
         # 移动者加载背景图像
-        self.bg_image_fullname = config.images_path + config.filename_bee + config.filename_suffix
+        self.bg_image_fullname = config.image_path + config.filename_bee + config.filename_suffix
         self.bg_image = tkinter.PhotoImage(file=self.bg_image_fullname)
         self.bg_image_tags = tags
 
@@ -34,7 +35,7 @@ class Bee(actor.Actor):
         if self.nw[1] < config.window_boundary_row:
             x = self.steps[0] * self.move_direction[0]
             y = self.steps[1] * self.move_direction[1]
-            self.base_mve(self.bg_image_tags, x, y)
+            self.base_move(self.bg_image_tags, x, y)
         # 边界之外错误处理
         else:
             self.base_move(self.bg_image_tags, 0, -config.window_boundary_row)

@@ -1,5 +1,6 @@
 
 import tkinter
+
 import actor
 import config
 
@@ -10,7 +11,7 @@ class SmallPlane(actor.Actor):
     """
 
     def __init__(self, root, canvas, position, x, y, tags):
-        super(self, SmallPlane).__init__(root, canvas, position, x, y, tags,
+        super().__init__(root, canvas, position, x, y, tags,
                                          config.image_smallplane_width, config.image_smallplane_height, True)
 
         # 移动者的移动步长
@@ -18,8 +19,9 @@ class SmallPlane(actor.Actor):
         # 移动方向 - 向下
         self.move_direction = [0, 1]
         # 移动者加载背景图像
-        self.bg_image_fullname = config.images_path + config.filename_smallplane + config.filename_suffix
+        self.bg_image_fullname = config.image_path + config.filename_smallplane + config.filename_suffix
         self.bg_image = tkinter.PhotoImage(file=self.bg_image_fullname)
+        self.bg_image_tags = tags
         # # 重置生命值
         # super().set_lives_num(config.lives_num_enemy)
 
@@ -34,7 +36,7 @@ class SmallPlane(actor.Actor):
             self.base_move(self.bg_image_tags, x, y)
         else:
             # Y轴边界之外错误处理
-            self.base_move(self.bg_image_tags, 0, -config.window_boundary_row)
+            self.base_move(self.bg_image_tags, 0, - config.window_boundary_row)
 
         # 获取死亡图片
 
