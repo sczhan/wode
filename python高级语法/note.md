@@ -132,6 +132,7 @@
 
 
 # 异常
+##jupyter notebook 异常处理.ipynb
  - 广义上次错误分为错误和异常
  - 错误指的是可以人为避免
  - 异常是指语法逻辑正确运行的前提下,出现的问题
@@ -176,6 +177,7 @@ print(100/12)
 # 常常犯的除零错误
 num = int(input("请输入数字:"))
 print(100/num)
+
 
 
 # 异常处理
@@ -336,7 +338,377 @@ finally:
      - 自定义发生异常的行数
  - 最终的目的是,一旦发生异常,方便程序员快速定位错误现场
     
+
+
+# 常用模块
+##jupyter notebook 常用模块.ipynb
+ - calendar
+ - time
+ - datetime
+ - timeit
+ - os
+ - shutil
+ - zip
+ - math
+ - string
+ - 上述所有模块使用理论上都应该先导入,string是特例
+ - calendar, time, datetime的区别参考中文意思   
+
+#calendar
+ - 跟日历相关的模块
+
+# 使用需要先导入
+import calendar
+
+# calendar: 获取一年的日历字符串
+# 参数
+# w = 每个日期之间的间隔字符数
+# l = 每周所占用的行数
+# c = 每个月之间的间隔字符数
+cal = calendar.calendar(2019)
+print(cal)
+print(type(cal))  
+
+# isleap:判断某一年是否闰年
+calendar.isleap(2004)
+
+# leapdays: 获取指定年份之间的闰年的个数
+calendar.leapdays(2001, 2018)
+
+# month() 获取某个月的日历字符串
+# 格式: calendar.month(年,月)
+# 回值:月日历的字符串
+m3 = calendar.month(2019, 3)
+print(m3)
+
+# monthrange() 获取一个月的周几开始即和天数
+# 格式: calendar.monthrange(年, 月)
+# 回值: 元组(周几开始, 总天数)
+# 注意: 周默认0-6表示周一到周天
+help(calendar.monthrange)
+t = calendar.monthrange(2019, 6)
+print(t)
+w, t = calendar.monthrange(2019, 6)
+print(w)
+print(t)
+
+# monthcalendar() 返回一个月每天的矩阵列表
+# 格式: calendar.monthcalendar(年, 月)
+# 回值: 二级矩阵
+# 注意: 矩阵中没有天数用0表示
+m = calendar.monthcalendar(2019, 6)
+print(type(m))
+print(m)
+
+# prcal: print calendar 直接打印日历
+calendar.prcal(2019)
+help(calendar.prcal)
+
+# prmonth()  直接打印整个月的日历
+# 格式: calendar.prmonth(年, 月)
+# 返回值:无
+calendar.prmonth(2019, 6)
+
+# weekday()  获取周几
+# 格式: calendar.weekday(年, 月, 日)
+# 返回值: 周几对应的数字
+calendar.weekday(2019, 6, 26)
+
+
+# time模块
+### 时间戳
+   - 一个时间表示,根据不同语言,可以是整数或者浮点数
+   - 是从1970年1月1日0时0分0秒到现在经历的秒数
+   - 如果表示的时间是1970年以前或者太遥远的未来, 可能出现异常
+   - 32位操作系统能够支持到2038年
+### UTC时间
+    - UTC 又称为时间协调时间, 以英国的格尼治天文所在地区的时间作为参考,也叫做世界标准时间
+    - 中国时间是 UTC+8 东八区
+
+### 夏令时
+    - 夏令时就是夏天的时候将时间调快一小时,本意是督促大家早睡早起节省蜡烛! 每天变成25小时,本质没变还是24小时
     
-   
+### 时间元组
+    - 一个包含时间内容的普通元组
     
+    索引   内容    属性        值
+    0     年      tm year     2015
+    1     月      tm mon      1~12
+    2     日      tm mday     1~31
+    3     时      tm hour     0～23
+    4     分      tm min      0～59
+    5     秒      tm sec      0~61  60表示闰秒   61保留值
+    6     周几     tm wday     0~6
+    7     第几天    tm yday     1~366
+    8     夏令时    tm_isdst    0，1，-1（表示夏令时）
+
+# 需要单独导入
+import time
+
+# 时间模块的属性
+# timezone: 当前时区的UTC时间相差的描述,在没有夏令时的情况下的间隔,东八区的是 -28800
+# altzone: 获取当前时区与UTc时间相差的秒数,在有夏令时的情况下
+# daylight: 检测当前是否是夏令时时间状态, 0 表示是
+
+print(time.timezone)
+print(time.daylight)
+
+# 得到时间截
+time.time()
+
+# localtime 得到当前时间的时间结构
+# 可以通过点号操作符得到当前的
+t = time.localtime()
+print(t)
+print(t.tm_hour) 
+print(type(t))
+
+# asctime() 返回元组的正常字符串化之后的时间格式
+# 格式: time.asctime(时间元组)
+# 返回值: 字符串Tue Jun 6 11:11:00 2017
+t = time.localtime()
+print(t)
+tt = time.asctime(t)
+print(type(tt))
+print(tt)
+
+# ctime: 获取字符串化的当前时间
+t = time.ctime()
+print(type(t))
+print(t)
+
+# mktime()  使用时间元组获取对应的时间戳
+# 格式: time.mktime(时间元组)
+# 返回值: 浮点数时间戳
+lt = time.localtime()
+ts = time.mktime(lt)
+print(type(ts))
+print(ts)
+
+# clock: 获取cpu时间 3.0 - 3.3 版本直接使用, 3.6使用有问题
+def p():
+    time.sleep(2.5)
+
+t0 = time.clock()
+p()
+# time.sleep(3)
+t1 = time.clock()
+print(t0, t1)
+print(t1 - t0)
+
+# sleep: 使程序进入睡眠,n秒后继续
+for i in range(10):
+    print(i)
+    time.sleep(1)
     
+# strftime: 将时间元组转化为自定义的字符串格式
+"""
+    格式  含义
+
+    %a   本地简化星期名称
+    %A   本地完整星期名称
+    %b   本地简化的月份名称
+    %B   本地完整的月份名称
+    %c   本地相应的日期表示和时间表示
+    %d   月内中的一天（0-31）
+    %j   年内的一天（001-366）
+    %m   月份（01-12）
+    %M   分钟数（00=59）
+    %p   本地A.M.或P.M.的等价符
+    %S   秒（00-59）
+    %U   一年中的星期数（00-53）星期天为星期的开始
+    %w   星期（0-6），星期天为星期的开始
+    %W   一年中的星期数（00-53）星期一为星期的开始
+    %x   本地相应的日期表示
+    %X   本地相应的时间表示
+    %y   两位数的年份表示（00-99）
+    %Y   四位数的年份表示（000-9999）
+    %Z   当前时区的名称
+    %%   %号本身
+
+"""
+# 把时间表示成 2019年6月9日 16:09
+t = time.localtime()
+ft = time.strftime("%Y{0}%m{1}%d{2} %H:%M",  t).format("年", "月", "日")
+print(ft)
+
+
+# datetime模块
+- datetime 提供日期和时间的运算和表示
+
+import datetime
+# datetime 常见属性
+# datetime.date: 一个理想的日期,提供year,month,day属性
+print(datetime.date(2019, 6, 9))
+dt = datetime.date(2019, 6, 9)
+print(dt)
+print(dt.day)
+print(dt.year)
+print(dt.month)
+
+# datetime.time: 提供一个理想和的时间,提供hour, minute, sec, microsec 等内容
+# datetime.datetime: 提供日期跟时间的组合
+# datetime.timedelta:提供一个时间差,时间长度
+
+# datetime.datetime
+from datetime import datetime
+# 常用类方法
+# today:
+# now
+# utcnow
+# fromtimestamp: 从时间戳中返回本地时间
+dt = datetime(2019, 6, 9)
+print(dt.today())
+print(dt.now())
+print(dt.fromtimestamp(time.time()))
+
+# datetime.timedelta
+# 表示一个时间间隔
+from datetime import datetime, timedelta
+t1 = datetime.now()
+print(t1)
+print(t1.strftime("%Y-%m-%d %H:%M:%S"))
+
+# td表示1小时10分钟的时间长度
+td = timedelta(hours=1,minutes=10)
+# 当前时间加上时间间隔后,把得到的一个小时10分钟后的时间格式化输出
+print((t1+td).strftime("%Y-%m-%d %H:%M:%S"))
+
+
+# timeit: 时间测量工具
+
+# 测量程序运行时间间隔实验
+def p():
+    time.sleep(3.6)
+
+t1 = time.time()
+p()
+print(time.time() - t1)
+
+
+# 生成列表两张方法比较
+# 如果单纯比较生成一个列表的时间,可能很难实现
+import timeit
+c = """
+sum = []
+for i in range(1000):
+    sum.append(i)
+"""
+
+# 利用timeit调用代码,执行100000次,查看运行时间
+t1 = timeit.timeit(stmt="[i for i in range(1000)]", number=100000)
+t2 = timeit.timeit(stmt=c, number=100000)
+print(t1)
+print(t2)
+
+# timeit 可以执行一个函数,来测量一个函数的执行时间
+def dolt():
+    num = 3
+    for i in range(num):
+        print("Repeat for {0}".format(i))
+
+# 执行函数 打印10次
+t = timeit.timeit(stmt=dolt, number=10)
+print(t)
+
+
+s = """ 
+def dolt(num):
+    for i in range(num):
+        print("Repeat for {0}".format(i))
+"""
+
+# 执行dolt(num)
+# setup负责把环境变量准备好
+# 实际相当于给timeit创造了一个小环境
+# 在创作的小环境中, 代码执行的顺序大致是
+# 
+"""def dolt(num):
+        ...
+num = 3
+dolt(num)
+"""
+t = timeit.timeit("dolt(num)", setup=s+"num=3", number=10)
+print(t)
+
+
+# datetime.datetime 模块
+- 提供比较好用的时间而已
+- 类定义
+    class datetime. datetime(year, month, dayI, hour
+    [, minute
+    [, second
+    [, microsecond
+    [, tzinfo]]]]])
+# The year, month and day arguments are required.
+    MINYEAR <=year <=MAXYEAR
+    1<=month <=12
+    1<=day<=n
+    0<=hour<24
+    0<=minute<60
+    0<=second<60
+    0<=microsecond<10**6
+- 类方法
+- datetime.today（）：返回当前本地datetime.随着tzinfo None.这个等同于
+- datetime.fromtimestamp（time.time（））.
+- datetime.now（[tz]）：返回当前本地日期和时间，如果可选参数tz为None或没有详细说明，这个方法会像today（）.
+- datetime.utcnow（）：返回当前的UTC日期和时间，如果tzinfo None，那么与now（）类似。
+- datetime.fromtimestamp（timestamp[，tz]）：根据时间戳返回本地的日期和时间.tz指定时区
+- datetime.utcfromtimestamp（timestamp）：根据时间戳返回 UTC datetime.
+- datetime.fromordina（ordinal）：根据Gregorian ordinal 返回datetime.
+- datetime.combine（date，time）：根据date和time返回一个新的datetime.
+- datetime.strptime（date string，format）：根据date string和format返回一个datetime.
+- 实例方法
+- datetime.date（）：返回相同年月日的date对象，
+- datetime.time（）：返回相同时分秒微秒的time对象。
+- datetime.replace（kw）：kw in[year，month，day，hour，minute，second，microsecond，tzinfo]，与date类似.
+- datetime.min:datetime（MINYEAR，1，1）.datetime.max:datetime（MAXYEAR，12，31，23，59，59，999999）.
+- 实例属性（read-only）
+- datetime.year：1至9999 datetime.month：1至12 datetime.day：1至n datetime.hour:In range（24）.0至23 datetime.minute:In range（60）.datetime.second:In range（60）.
+- datetime.microsecond:In range（1000000）
+
+
+# os - 操作系统相关
+- 跟操作系统相关, 主要是文件操作
+- 与系统相关的操作, 主要包含在三个模块里
+    - os, 操作系统目录相关
+    - os.path, 系统路径相关操作
+    - shutil, 高级文件操作, 目录树的操作,文件赋值,删除,移动
+- 路径:
+    - 绝对路径: 总是从根目录上开始
+    - 相对路径: 基本以当前环境为开始的一个相对的对方
+    
+# os 模块
+# getcwd() 获取当前的工作目录
+# 格式: os.getcwd()
+# 返回值: 当前工作目录的字符串
+# 当前工作目录就是程序在进行文件相关操作,默认查找文件的目录
+import os
+mydir = os.getcwd()
+print(mydir)
+
+
+# chdir() 改变当前的工作目录
+# change directory
+# 格式: os.chdir(路径)
+# 返回值: 无
+os.chdir("/home/sczhan")
+mydir = os.getcwd()
+print(mydir)
+
+
+# listdir() 获取一个目录中所有子目录和文件的名称列表
+# 格式: os.listdir(路径)
+# 返回值:所有子目录和文件名称的列表
+ld = os.listdir("D:\未来教育")
+print(ld)
+ld = os.listdir()
+print(ld)
+
+
+# makedirs() 递归创建文件夹
+# 格式: os.makedirs(递归路径)
+# 返回值: 无
+# 递归路径: 多个文件夹层次包含的路径就是递归路径, 例如a/b/c..
+rst = os.makedirs("D:\战")
+print(rst)
