@@ -712,3 +712,269 @@ print(ld)
 # 递归路径: 多个文件夹层次包含的路径就是递归路径, 例如a/b/c..
 rst = os.makedirs("D:\战")
 print(rst)
+
+# system()  运行系统shell命令
+# 格式: os.system(系统命令)
+# 返回值: 打开一个shell或者终端界面
+# ls是列出当前文件和文件夹的系统命令
+# 一般推荐使用subprocess代替
+# windows是dir  linux是ls
+rst = os.system("dir")
+print(rst)
+
+# window 还不知道 下面是linux
+# 在当前目录下创建一个dana.haha 的文集
+rst = os.system("touch zhan.txt")
+print(rst)
+
+# getenv() 获取指定的系统环境变量值
+# 相应的还有putenv
+# 格式:  os.getenc("环境变量")
+# 返回值: 指定环境变量名对应的值
+rst = os.getenv("PATH")
+print(rst)
+
+# exit()   退出当前程序
+# 格式: exit()
+# 返回值: 无
+
+# 值部分
+- os.curdir: curretn dir 当前目录
+- os.pardir: parent dir 父亲目录
+- os.sep: 当前系统的路径分隔符
+    - windows: "\"
+    - linux: "/"
+- os.linesep: 当前系统的换行符号
+    - windows:  "\r\n"
+    - unix,linux,macos: "\n"
+- os.name: 当前系统名称 
+    - windows: nt
+    - mac, unix, linux: posix
+    
+
+print(os.name)
+print(os.curdir)
+print(os.pardir)
+print(os.sep) 
+
+# 在路径相关操作中, 不要手动拼写地址,因为手动拼写的路径可能不具有移值性
+path = "/home/tlxy" + "/" + "dana"
+print(path)
+
+
+
+# os.path模块, 跟路径相关的模块
+
+# abspath()  将路径转化为决定路径
+# abselute 绝对
+#格式: os.path.abspath("路径")
+# 返回值: 路径的绝对路径形式
+
+# linux 中
+# . 点,代表当前目录
+# .. 双点, 代表父目录
+import os.path as op
+absp = op.abspath(".")
+print(absp)
+
+# basename() 获取路径中的文件名部分
+# 格式: os.path.basename(路径)
+# 返回值:  文件名字符串
+bn = op.basename("Users")
+print(bn)
+bn = op.basename("Users\SCzha")
+print(bn)
+
+# join() 将多个路径合成一个路径
+# 格式:  os.path.join(路径1, 路径2,...)
+# 返回值: 组合之后的新路径字符串
+bd = "D:\迅雷下载"
+fn = "[迅雷下载www.2tu.cc]一路向西.BD1280超清国粤双语中字.txt"
+p = op.join(bd, fn)
+print(p)
+
+# split() 将路径切割为文件夹部分和当前文件部分
+# 格式: os.path.split(路径)
+# 返回值: 路径和文件名组成的元组
+
+t = op.split("D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.BD1280超清国粤双语中字.txt")
+print(t)
+d, p = op.split("D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.BD1280超清国粤双语中字.txt")
+print(d, p)
+
+# isdir()  检查是否是目录
+# 格式: os.path.isdir(路径)
+# 返回值; 布尔值
+rst = op.isdir("D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.BD1280超清国粤双语中字.txt")
+print(rst)
+rst = op.isdir("D:\迅雷下载")
+print(rst)
+
+# exists()  检测文件或者目录是否存在
+# 格式: os.path.exists(路径)
+# 返回值: 布尔值
+e = op.exists("D:\迅雷下载")
+print(e)
+e = op.exists("D:\迅雷下载\ll")
+print(e)
+
+
+
+# shutil 模块
+
+# copy() 复制文件
+# 格式:  shutil.copy(来源路径, 目标路径)
+# 返回值: 返回目标路径
+# 拷贝的同时, 可以给文件重命名
+import shutil
+rst = shutil.copy("D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.BD1280超清国粤双语中字.txt"
+                 ,"D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.txt")
+print(rst)
+
+# copy2()  复制文件, 保留元数据
+# 格式:  shutil.copy2(来源路径, 目标路径)
+# 返回值: 返回目标路径
+# 注意: copy和copy2的唯一区别在于copy2复制文件时尽量保留元数据
+
+# copyfile() 讲一个文件中的内容复制到另一个文件当中
+# 格式: shutil.copyfile("原路径", "目标路径")
+# 返回值: 无
+rst = shutil.copyfile("D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.txt", 
+                      "D:\迅雷下载\D迅雷下载[迅雷下载www.2tu.cc]一路向西.BD1280.txt")
+print(rst)
+
+# move() 移动文件/ 文件夹
+# 格式: shutil.move(原路径, 目标路径)
+# 返回值: 目标路径
+rst =  shutil.move("D:\迅雷下载\[迅雷下载www.2tu.cc]一路向西.BD1280.txt", 
+                   "D")
+print(rst)
+
+
+# 归档和压缩
+- 归档: 把对个文件或者文件夹合并到一个文件当中
+- 压缩: 用算法把多个文件或者文件夹无损或者有损合并到一个文件当中
+
+# make_archive() 归档操作
+# 格式: shutil.make_archive("归档之后的目录文件名", "后缀", "需要归档的文件夹")
+# 返回值: 归档之后的地址
+import os
+# 是想得到一个叫做 战.me 的归档文件
+rst = shutil.make_archive("D:\迅雷下载\zhan", "zip", "D:\迅雷下载\jjjkk")
+print(rst)
+
+# unpack_archive()  解包操作
+# 格式: shutil.unpack_archive("归档文件地址", "解包之后的地址")
+# 返回值: None
+
+rst = shutil.unpack_archive("D:\迅雷下载\zhan.zip", "D:\迅雷下载\jjjkkkk")
+print(rst)
+
+
+# zip-压缩包
+- 模块名称叫 zipfile
+
+# zipfile.ZipFile(file[, mode[, compression[, allowZip64]]])
+# 创建一个ZipFile对象,表示一个zip文件.参数file表示文件的路径或类文件对象(file-like object);参数
+import zipfile as zf
+zf = zf.ZipFile("D:\迅雷下载\zhan.zip")
+
+# ZipFile.getinfo(name):
+# 获取zip文档内指定文件的信息. 返回一个zipfile.ZipInfo对象, 它包括文件的详细信息
+rst = zf.getinfo("[迅雷下载www.2tu.cc]一路向西.txt")
+print(rst)
+
+# ZipFile.namelist()
+# 获取zip文档内所有文件的名称列表
+
+nl = zf.namelist()
+print(nl)
+
+# ZipFile.extractall([path[, menbers[, pwd]]])
+# 解压zip文档中的所有文件到当前目录.
+
+rst = zf.extractall("D:\迅雷下载\zhan")
+print(rst)
+
+
+# random
+- 随机数
+- 所有随机模块都是伪随机
+
+# random() 获取0-1之间的随你小数
+# 格式: random.random()
+# 返回值: 随机0-1之间的小数
+import random 
+print(random.random())
+
+# choice() 随机返回序列中的某个值
+# 格式: ramdom.choice(序列)
+# 返回值: 序列中的某个值
+l = [str(i)+ "haha" for i in range(10)]
+rst = random.choice(l)
+print(rst)
+
+# shuffle()  随机打乱列表
+# 格式: random.shuffle(列表)
+# 返回值:打乱顺序之后的列表
+l1 = [i for i in range(10)]
+print(l1)
+random.shuffle(l1)
+print(l1)
+
+# random.randint(a, b): 返回一个a到b之间的随机整数,包含a和b
+print(random.randint(0, 100))
+
+
+# Log模块资料
+- https://www.cnblogs.com/yyds/p/6901864.htmL 
+
+
+# Python语言的高级特性
+## 函数式编程(FunctionProgramming)
+- 基于lambda演算的一种编程方式
+    - 程序中只有函数
+    - 函数可以作为参数, 同样可以作为返回值
+    - 纯函数编程语言: LISP, Haskell
+- Python函数式编程只是借鉴函数式编程的一些特点,可以理解成一半函数式一半Python
+- 需要讲述
+    - 高阶函数
+    - 返回函数
+    - 匿名函数
+    - 装饰器
+    - 偏函数
+    
+
+### lambda表达式
+- 函数: 最大程序复用代码
+    - 存在问题: 如果函数很小, 很短, 则会造成啰嗦
+    - 如果函数调用次数很少,则会造成浪费
+    - 对应阅读者来说,造成阅读流程的被迫中断
+- lambda表达式(匿名函数):
+    - 一个表达式,函数体相对简单
+    - 不是一个代码块, 仅仅是一个表达式
+    - 可以与参数,有很多个参数也可以,用逗号隔开
+
+
+# "小" 函数举例
+def printA():
+    print("aaaa")
+printA()
+
+# lambda表达式的用法
+# 1 以lambda开头
+# 2 紧跟一定的参数(如果有的话)
+# 3 参数后用冒号和表达式主题隔开
+# 4 只是一个表达式, 所有,没有return
+
+# 计算一个数字的100倍数
+# 因为就是一个表达式,所以没有return
+stm = lambda x: 100 * x
+print(stm(89))
+# 使用上跟函数调用一模一样
+stm(89)
+
+
+stm2 = lambda x, y, z: x + y + z * 100
+print(stm2(1, 2, 3))
+stm2(1, 2, 3)
