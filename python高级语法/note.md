@@ -974,7 +974,353 @@ print(stm(89))
 # 使用上跟函数调用一模一样
 stm(89)
 
-
+# 多参数lambda表达式
 stm2 = lambda x, y, z: x + y + z * 100
 print(stm2(1, 2, 3))
 stm2(1, 2, 3)
+
+# 高阶函数
+- 把函数作为参数使用的函数,叫高阶函数
+
+# 变量可以赋值
+a = 100
+b = a
+
+# 函数名称就是一个变量
+def funA():
+    print("In funA")
+funA
+funA()
+funB = funA
+funB()
+
+### 以上代码得出结论:
+- 函数名称是变量
+- funB 和 funA只是名称不一样而已
+- 既然函数名称是变量,则应该可以被当做参数传入另一个函数
+
+
+# 高阶函数举例
+# funA是普通函数,返回一个传入数字的100倍数字
+
+def funA(n):
+    return n * 100
+
+# 再写一个函数,把传入参数*300倍,利用高阶函数
+def funB(n):
+    return funA(n) * 3
+print(funB(9))
+
+
+# 写一个高阶函数
+def funC(n, f):
+    # 假定函数是把n扩大100倍
+    return f(n) * 3
+print(funC(9, funA))
+# 比较funC 和 funB, 显然funC的写法要优于funB
+# 例如:
+def funD(n):
+    return n * 10 
+
+# 需要变更, 需要把n放大30倍,此时funB则无法实现
+print(funC(7, funD))
+
+
+### 系统高阶函数 - map
+- 原意就是映射,即吧集合或者列表的元素,每个元素都按照一定规则进行操作,生成一个新的列表或者集合
+- map函数是系统提供的具有映射功能的函数, 返回值是一个迭代对象
+
+# map 举例
+# 有一个列表,想对列表里的每一个元素乘以10, 并得到新的列表
+l1 = [i for i in range(10)]
+print(l1)
+l2 = []
+for i in l1:
+    l2.append(i * 10)
+print(l2)
+
+# 利用map 实现
+def mulTen(n):
+    return n * 10
+
+
+# help(map)
+l3 = map(mulTen, l1)
+# print(type(l3))
+# print(l3)
+# map 类型是一个可迭代的结构所有可以使用for变量
+for i in l3:
+    print(i)
+# 以下列表生成式得到结果为空 why?
+l4 = [i for i in l3]
+print(l4)
+
+
+### reduce
+- 原意是归并,缩减
+- 把一个可迭代对象最后归并成一个结果
+- 对于作为参数的函数有要求: 必须有两个参数, 必须由返回结果
+- reduce([1, 2, 3, 4, 5]) == f(f(f(f(1, 2), 3) ,4), 5)
+- reduce 需要导入functools包
+
+from functools import reduce
+
+# 定义一个操作函数
+# 加入操作函数只是相加
+def myAdd(x, y):
+    return x + y
+# 对于列表[1, 2, 3, 4, 5, 6]执行myAdd的reduce 操作
+rst = reduce(myAdd, [1, 2, 3, 4, 5, 6])
+print(rst)
+l1 = [i for i in range(10)]
+rst1 = reduce(myAdd, l1)
+print(rst1)
+
+### filter 函数
+- 过滤函数: 对一组数据进行过滤,符合条件的数据会生成一个新的列表并返回
+- 跟map相比较:
+    - 相同: 都对列表的每一元素逐一进行操作
+    - 不同: 
+        - map会生成一个跟原来数据相对应的新队列
+        - filter不一定,只要符合条件的才会进入新的数据集合
+    - filter函数怎么写:
+        - 利用给定函数进行判断
+        - 返回值一定是一个布尔值
+        - 调用格式: filter(f, data), f是过滤函数, data是数据
+
+
+# filter案列
+# 对于一个列表,对其进行过滤, 偶数组成一个新列表
+
+# 需要定义过滤函数
+# 过滤函数要求有输入,返回布尔值
+def isEven(a):
+    return a % 2 == 0
+
+l = [i for i in range(20)]
+l1 = [3, 8, 22, 67, 23455, 43, 88]
+rst = filter(isEven, l)
+rst1 = filter(isEven, l1)
+# 返回的filter内容是一个可迭代对象
+print(type(rst))
+print(rst)
+print(rst1)
+print([i for i in rst])
+print([i for i in rst1])
+
+
+### 高阶函数-排序
+- 把一个序列按照给定算法进行排序
+- key: 在排序前对每一个元素进行key函数运算,可以理解成按照key函数定义的逻辑进行排序
+- python2 和 python3 相差巨大
+
+# 排序案列
+a = [23, 15, 97, 56, 24, 1]
+a1 = sorted(a)
+print(a)
+print(a1)
+a2 = sorted(a, reverse=True)
+print(a2)
+
+# 排序案列2
+a3 = [-43, 23, -98, -41, -1, 1]
+# 按照绝对值进行排序
+# abs是求绝对值的意思
+a4 = sorted(a3, key=abs, reverse=True)
+print(a4)
+
+
+# sorted案列
+astr = ["dana", "Dana", "wyz", "lm", "haha"]
+str1 = sorted(astr)
+print(str1)
+str2 = sorted(astr, reverse=True)
+print(str2)
+str3 = sorted(astr, key=str.lower)
+print(str3)
+
+
+
+### 返回函数
+- 函数可以返回具体的值
+- 也可以返回一个函数作为结果
+
+# 定义一个普通函数
+
+def myF(a):
+    print("in myF")
+    return None
+
+a = myF(8)
+print(a)
+
+# 函数作为返回值返回, 被返回的函数在函数体内定义
+
+def myF2():
+    def myF3():
+        print("In myF3")
+        return 3
+    return myF3
+
+# 使用上面定义
+# 调用myF2, 返回一个函数myF3, 赋值给f3
+f3 = myF2()
+print(type(f3))
+print(a)
+f3()
+
+# 复杂一点的返回函数的例子
+# args: 参数列表
+# 1 myF4定义函数, 返回内部定义的函数myF5
+# 2 myF5使用了外部变量,这个变量是myF4的参数
+def myF4(*args):
+    def myF5():
+        rst = 0
+        for n in args:
+            rst += n
+        return rst
+    return myF5
+    
+f5 = myF4(1,2,3)
+# f5的调用方式
+f5()
+f6 = myF4(10,2,3)
+# f5的调用方式
+f6()
+
+
+### 闭包(closure)
+- 当一个函数在内部定义函数,并且内部的函数应用外部函数的参数或者局部变量,当内部函数被当做返回值的时候,相关参数和变量保存在返回的函数中,这种结果,叫闭包
+- 上面定义的myF4是一个标准闭包结构
+
+# 闭包常见的坑
+def count():
+    # 定义列表,列表里存放的是定义的函数
+    fs = []
+    for i in range(1,4):
+        # 定义了一个函数
+        # f 是一个闭包结构
+        def f():
+            return i * i
+        fs.append(f)
+    return fs
+f1, f2, f3 = count()
+print(f1())
+print(f2())
+print(f3())
+
+### 出现问题:
+- 造成上述状况的原因是,返回函数引用了变量i, i并非立即执行, 而是等到三个函数都返回的时候才统一使用, 此时i已经变成3, 最终调用的时候, 都是返回 3*3
+- 此问题描述成: 返回闭包时,返回函数不能引用任何循环变量
+- 解决方案: 在创建一个函数, 用该函数的参数绑定循环变量的当前值,无论该循环变量以后如何改变,已经绑定的函数参数值不在改变
+
+# 修改上述函数
+def count1():
+    def f(j):
+        def g():
+            return j * j
+        return g
+    fs = []
+    for i in range(1,4):
+        fs.append(f(i))
+    return fs
+
+f1, f2, f3 = count1()
+print(f1())
+print(f2())
+print(f3())
+
+
+
+### 装饰器
+
+def hello():
+    print("hello, world")
+
+hello()
+
+f = hello
+f()
+# f 和 hello是一个函数
+print(id(f))
+print(id(hello))
+
+print(f.__name__)
+print(hello.__name__)
+
+# 现在有新的需求
+# 对hello功能进行扩展,每次打印hello之前打印当前系统时间
+# 而实现这个功能又不能改动现有代码
+# ==> 使用装饰器
+
+### 装饰器(Decrator)
+- 在不改动函数代码的基础上无限制 扩展函数功能的一种机制,本质上讲,装饰器是一个返回函数的高阶函数
+- 装饰器的使用: 使用@语法,即在每次要扩展到函数定义前使用 @ + 函数名
+
+# 任务:
+# 对hello函数进行功能扩展,每次执行hello前打印当前时间
+
+import time
+
+# 高阶函数,以函数作为参数
+def printTime(f):
+    def wrapper(*args, **kwargs):
+        print("Time:", time.ctime())
+        return f(*args, **kwargs)
+    return wrapper
+    
+# 上面定义了装饰器,使用的时候需要用到@, 此符号是python的语法糖
+@printTime
+def hello():
+    print("hello, world")
+hello()
+
+# 装饰器的好处是, 一点定义,则可以装饰任意函数
+# 一旦被其装饰, 则把装饰器的功能直接添加到定义函数的功能上
+
+@printTime
+def hello2():
+    print("今天很高兴")
+    print("还有很多选择")
+hello2()
+
+# 上面对函数的装饰使用了系统定义的语法糖
+# 现在开始手动执行下装饰器
+# 先定义函数
+
+def hello3():
+    print("我是手动执行的")
+    
+hello3()
+
+hello3 = printTime(hello3)
+hello3()
+
+f = printTime(hello3)
+f()
+# 作业: 解释下面的执行结果
+
+
+### 偏函数
+# 把字符串转化成十进制数字
+int("12345", base=10)
+
+# 求八进制的字符串12345, 表示成十进制的数字是多少
+int("12345", base=8)
+
+# 新建一个函数,此函数是默认输入的字符串是16进制数字
+# 把此字符串返回十进制的数字
+def int16(x, base=16):
+    return int(x, base)
+
+int16("12345")
+
+### 偏函数
+- 参数固定的函数, 相当于一个由特定参数的函数体
+- functools.partial的作用是, 把一个函数某些函数固定, 返回一个新函数
+
+import functools
+#实现上面int16的功能
+int16 = functools.partial(int, base=16)
+int16("12345")
+int("12345",base=16)
