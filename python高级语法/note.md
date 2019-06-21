@@ -1324,3 +1324,111 @@ import functools
 int16 = functools.partial(int, base=16)
 int16("12345")
 int("12345",base=16)
+
+# 补充几个高级函数
+
+#  zip
+- 把两个可迭代内容生成一个可迭代的tuple元素类型组成的内容
+
+# zip 案列
+l1 = [1, 2, 3, 4, 5]
+l2 = [11, 22, 33, 44, 55]
+z = zip(l1, l2)
+print(type(z))
+print(z)
+# print(list(z))
+for i in z:
+    print(i)
+    
+l1 = ["liu", "wang", "yue"]
+l2 = [97, 95, 90]
+
+z = zip(l1, l2)
+# l3 = [i for i in z]
+for i in z:
+    print(i)
+    
+# enumerate
+- 跟zip功能比较像
+- 可迭代对象里的每一元素,配上一个索引, 然后索引和内容构成tuple类型
+
+# enumerate 案列1 
+l1 = [11, 22, 33, 44, 55]
+em = enumerate(l1)
+print(em)
+print(list(em))
+
+# enumerate 案列2
+l2 = [11, 22, 33, 44, 55]
+em = enumerate(l2, start=100)
+l3 = [i for i in em]
+print(l3)
+
+
+# collections模块
+- namedtuple
+- deque
+
+### namedtuple
+- tuple类型
+- 是一个可命名的tuple
+
+import collections
+Point = collections.namedtuple("Point", ["x", "y"])
+p = Point(11, 12)
+print(p.x)
+print(p.y)
+print(p[0])
+
+Circle = collections.namedtuple("Circle", ["x", "y", "r"])
+c = Circle(100, 150, 50)
+print(c)
+print(type(c))
+
+# 检测以下namedtuple到底属于谁的子类
+isinstance(c, tuple)
+
+# duque
+- 比较方便的解决了频繁删除插入带来的效率问题
+
+from collections import deque
+q = deque(["a", "b", "c"])
+print(q)
+q.append("d")
+print(q)
+q.appendleft("x")
+print(q)
+
+# defaultdit
+- 当直接读取dict不存在的属性时,直接返回默认值
+
+d1 = {"one":1, "two": 2, "three":3}
+print(d1["one"])
+print(d1["four"])
+
+
+from collections import defaultdict
+# lambda表达式, 直接返回字符串
+func = lambda:"我爱刘梦"
+d2 = defaultdict(func)
+d2["one"] = 1
+d2["two"] = 2
+
+print(d2["one"])
+print(d2["two"])
+print(d2["three"])
+
+
+# Counter
+- 统计字符串个数
+
+from collections import Counter
+
+# 为什么下面结果不把aaabbcc..作为键值,而是以其中每一个字母作为键值
+# 需要括号里内容为可迭代
+c = Counter("aaabbccddddd")
+print(c)
+
+s = ["wang","wang", "wang","love", "love", "love", "love",  "刘梦"]
+c = Counter()
+print(s)
