@@ -44,8 +44,8 @@ class HeroPlane(actor.Actor):
                 and self.se[1] < config.window_boundary_row:
 
             # x/y 轴边界之内正常移动
-            X = self.steps[0] * self.move_direction[0]
-            Y = self.steps[1] * self.move_direction[1]
+            x = self.steps[0] * self.move_direction[0]
+            y = self.steps[1] * self.move_direction[1]
             self.base_move(self.bg_image_tags, x, y)
         else:
             # 不执行跨越边界的操作

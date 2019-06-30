@@ -344,7 +344,7 @@ class PlayWarfare(object):
             # 敌机, 已机
             PlayWarfare.move_sky(canvas, sky_first, sky_second)
             PlayWarfare.move_enemy(root, canvas, enemy_list)
-            PlayWarfare.move_owns = (root, canvas, own_list)
+            PlayWarfare.move_owns(root, canvas, own_list)
 
             # 每帧创建一个新子弹
             new_blt = PlayWarfare.create_bullet(root, canvas, own_list[0], config.current_bullet_num)

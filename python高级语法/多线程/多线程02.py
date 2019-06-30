@@ -48,10 +48,10 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # while True:
-    #     time.sleep(7)
+    while True:
+        time.sleep(7)
 
 
-    time.sleep(7)
-    print("All done at: ", time.ctime())
+    # time.sleep(7)
+    # print("All done at: ", time.ctime())
 
