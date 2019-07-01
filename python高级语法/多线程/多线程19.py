@@ -19,3 +19,4 @@ if __name__ == "__main__":
     while True:
         print("sleeping...")
         sleep(2)
+    # clock(2)
