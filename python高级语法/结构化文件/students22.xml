@@ -1,0 +1,14 @@
+<School loc="beijing" type="online">
+    <Teacher gender="male">
+        <Name>haha</Name>
+        <Age>18</Age>
+    </Teacher>
+    <Student>
+        <Name test="hahashahas">hahas</Name>
+        <age>18</age>
+    <ADDer a="b">我加的</ADDer><ADDer a="b">我加的22</ADDer></Student>
+    <Student>
+        <Name test="hahahaha">haha</Name>
+        <age>18</age>
+    <ADDer a="b">我加的</ADDer></Student>
+</School>
