@@ -168,6 +168,8 @@ class ScreenSaver(object):
         self.root.destroy()
 
 
-
 if __name__ == "__main__":
-     ScreenSaver()
+    ScreenSaver()
+
+
+# 怎么实现屏保一移动就会弹出一个退出按钮

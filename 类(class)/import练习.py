@@ -1,5 +1,3 @@
-
-import math
 import random
 # x = random.randint(100, 999)
 # n = 10

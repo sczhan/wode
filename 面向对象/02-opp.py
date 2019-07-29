@@ -73,73 +73,75 @@
 # yue.sayAgain()
 
 #
-# class Tercher():
-#     name = "55"
-#     age = 19
-#
-#     def say(self):
-#         self.name = "aaaa"
-#         self.age = 200
-#         print("my name is {0}".format(self.name))
-#         print("my age is {0}".format(__class__.age))
-#
-#     def sayAgain():
-#         print("again ")
-#         print("my name is {0}".format(__class__.name))
-#
-#
-# t = Tercher()
-# t.say()
-# # 调用  绑定类函数实用类名
-# Tercher.sayAgain()
-# print(t.__class__.name)
-
-
-# 关于self的案列
-class A():
-    name = "pp"
-    age = 20
-
-    def __init__(self):
-        self.name = "kkkk"
-        self.age = 240
+class Tercher():
+    name = "55"
+    age = 19
 
     def say(self):
-        print(self.name)
-        print(self.age)
+        self.name = "aaaa"
+        self.age = 200
+        print("my name is {0}".format(self.name))
+        print("my age is {0}".format(__class__.age))
+
+    def sayAgain():
+        print("again ")
+        print(__class__.name)
+
+        print("my name is {0}".format(__class__.name))
 
 
-class B():
-    name = "bbb"
-    age = 18
-
-
-a = A()
-# 此时,系统会默认把a作为第一个参数传入函数
-a.say()
-# 此时self被a替代
-A.say(a)
-# 同样可以把A作为参数传入
-A.say(A)
-# 此时,传入的是类实例B,因为B具有name 和 age 属性,所以不会报错
-A.say(B)
-
-# 以上代码,利用鸭子模型
-
-
-class Person():
-    # name 是共有的成员
-    name = "liu"
-    # __age就是私有成员
-    __age = 18
-
-
-p = Person()
-print(p.name)
-# __age是私有变量,注意报错信息
-# print(p.__age)
-print(Person.__dict__)
-print(p._Person__age)
+t = Tercher()
+t.say()
+# 调用  绑定类函数实用类名
+Tercher.sayAgain()
+print(Tercher.name)
+#
+#
+# # 关于self的案列
+# class A():
+#     name = "pp"
+#     age = 20
+#
+#     def __init__(self):
+#         self.name = "kkkk"
+#         self.age = 240
+#
+#     def say(self):
+#         print(self.name)
+#         print(self.age)
+#
+#
+# class B():
+#     name = "bbb"
+#     age = 18
+#
+#
+# a = A()
+# # 此时,系统会默认把a作为第一个参数传入函数
+# a.say()
+# # 此时self被a替代
+# A.say(a)
+# # 同样可以把A作为参数传入
+# A.say(A)
+# # 此时,传入的是类实例B,因为B具有name 和 age 属性,所以不会报错
+# A.say(B)
+#
+# # 以上代码,利用鸭子模型
+#
+#
+# class Person():
+#     # name 是共有的成员
+#     name = "liu"
+#     # __age就是私有成员
+#     __age = 18
+#
+#
+# p = Person()
+# print(p.name)
+# # __age是私有变量,注意报错信息
+# # print(p.__age)
+# print(Person.__dict__)
+# print(p._Person__age)
 
 
 

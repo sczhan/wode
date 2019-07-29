@@ -37,7 +37,9 @@ num7 = ""
 num8 = ""
 num10 = ""
 num12 = ""
+num17 = ""
 operatio = ""
+operatios = ""
 
 
 def delete():
@@ -67,17 +69,24 @@ def change(num):
     global num3
     global num10
     global num12
+    global num17
     if operatio not in ["+", "-", "x", "/"]:
         num1 = num1 + num
         sv.set(num1)
 
     else:
-        num2 = num + num2
-        # sv.set(num1 + operatio + num2)
+        num2 = num2 + num
+        sv.set(num1 + operatio + num2)
 
-        if operatio:
-            num10 = num10 + num
-            sv.set(num1 + operatio + num2 + operatio + num10)
+        if operatios in ["+", "-", "x", "/"]:
+            num17 = num17 + num
+            sv.set(num2 + operatios + num17)
+
+    # if o == "..." and  operatio:
+    #         num10 = num10 + num
+    #         sv.set(num1 + operatio + num2 + operatio + num10)
+    #         print(num10 + "...")
+    #         print(num2)
 
 
 def operation(op):
@@ -90,6 +99,7 @@ def operation(op):
     global operatio
     if op in ["+", "-", "x", "/"]:
         operatio = op
+        operatios = op
 
     else:
         if operatio == "+":
@@ -106,7 +116,7 @@ def operation(op):
                     sv.set(rst)
                     print(rst)
             else:
-                rst = int(num1) + int(num2) + int(num10)
+                rst = int(num1) + int(num2)
                 sv.set(rst)
 
         if operatio == "-":

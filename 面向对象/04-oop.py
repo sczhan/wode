@@ -231,6 +231,8 @@ class TutorMixin(Person, TeacherMixin, StudengMixin):
 
 print("*"*20)
 tt = Tutor()
+tt.stu()
+tt.work()
 print(TutorMixin.__mro__)
 print(tt.__dict__)
 print(TutorMixin.__dict__)

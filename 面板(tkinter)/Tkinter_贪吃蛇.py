@@ -16,11 +16,11 @@
 #       蛇也可以是认为一个独立的事物
 #       世界也是,但世界负责显示
 
+import queue
 import random
 import threading
-from tkinter import *
-import queue
 import time
+from tkinter import *
 
 
 class Food(object):
