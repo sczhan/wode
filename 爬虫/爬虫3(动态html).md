@@ -72,3 +72,18 @@
     - 电话
         - 语音识别
     - google验证
+    
+# Tesseract
+- 机器视觉领域的基础软件
+- OCR: OPticalChracterRecognition, 光学文字识别
+- Tesseract: 一个ocr库, 有google赞助
+    - 安装: 
+        - windows: https://jingyan.baidu.com/article/219f4bf788addfde442d38fe.html
+        - Mac: brew install tesseract
+        - Linux: apt-get install tesseract-ocr
+        - 安装完成后需要设置环境变量
+    - 安装完后还需要pytesseract
+        - pip install pytesseract
+        
+    - 读取案列
+        - 案列v40

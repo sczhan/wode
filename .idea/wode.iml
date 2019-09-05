@@ -7,6 +7,13 @@
     <orderEntry type="jdk" jdkName="Python 3.7 (oop)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pychrm文件" />
+    <orderEntry type="module" module-name="pychrm文件" />
+    <orderEntry type="module" module-name="e1_scrapy_baidu" />
+    <orderEntry type="module" module-name="爬虫(scrapy)" />
+    <orderEntry type="module" module-name="e2_scrapy_meiju" />
+    <orderEntry type="module" module-name="e3_qq招聘" />
+    <orderEntry type="module" module-name="e3_qq招聘" />
+    <orderEntry type="module" module-name="e4_xhw" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
