@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../爬虫(scrapy)/e2_scrapy_meiju/.idea/e2_scrapy_meiju.iml" filepath="$PROJECT_DIR$/../爬虫(scrapy)/e2_scrapy_meiju/.idea/e2_scrapy_meiju.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘/.idea/e3_qq招聘.iml" filepath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘/.idea/e3_qq招聘.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/.idea/e3_qqzhaopin.iml" filepath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/.idea/e3_qqzhaopin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../爬虫(scrapy)/e4_xhw/.idea/e4_xhw.iml" filepath="$PROJECT_DIR$/../爬虫(scrapy)/e4_xhw/.idea/e4_xhw.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pychrm文件2/.idea/pychrm文件.iml" filepath="$PROJECT_DIR$/../pychrm文件2/.idea/pychrm文件.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wode.iml" filepath="$PROJECT_DIR$/.idea/wode.iml" />
