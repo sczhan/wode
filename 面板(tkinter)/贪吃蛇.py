@@ -1,8 +1,8 @@
 import queue
 import random
+import threading
 import time
 from tkinter import *
-import threading
 
 
 class Food(object):
