@@ -1,0 +1,2 @@
+2019-06-23 23:16:15,760 - ERROR - - log02.py[:42] - - -error message
+2019-06-23 23:16:15,760 - CRITICAL - - log02.py[:43] - - -critical message
