@@ -49,10 +49,10 @@ log_format = "%(asctime)s - %(levelname)s - %(message)s"
 logging.basicConfig(format=log_format)
 
 
-def log(text):
+def log(tex):
     def decorator(func):
         def wapper(*arg, **kw):
-            logging.error(text)
+            logging.error(tex)
             return func(*arg, **kw)
         return wapper
     return decorator
