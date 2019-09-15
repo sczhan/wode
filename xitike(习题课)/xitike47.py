@@ -32,10 +32,39 @@ def log(f):
         logger.error("this is a error info")
         return f(*args, **kwargs)
     return wraper
-@log
 
+# 按照函数的不同要在日志中打印不同的东西
+def loghigher(text):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            logger.debug(text)
+            logger.error(text)
+            return func(*args, **kwargs)
+        return wrapper
+    return decorator
+
+@log
 
 def text():
     print("test done")
 
-text()
+@loghigher("this is main done")
+def main():
+    print("main done")
+
+@loghigher("this  is text1 done")
+def text1():
+    print("text1 done")
+
+
+if __name__ == '__main__':
+    main()
+    text1()
+    text()
+
+
+"""
+一般情况我们在实际的工作当中, 我们经常把logging封装成一个装饰器, 
+按照自己习惯, 新建一个loggerTools的文件,在需要保存日志的地方, 把loggerTool给引进来
+"""
+
