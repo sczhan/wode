@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d684d2be-46fb-4cb4-ab7d-47f69b1b5d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/闭包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web免费课/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web免费课/HTML.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web免费课/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py" beforeDir="false" afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/类(class)/class(类练习)-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/类(class)/class(类练习)-2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,71 +17,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike51.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1325">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike52.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding>
-                <element signature="e#1590#1603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/类(class)/list内置函数.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/类(class)/import练习.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <entry file="file://$PROJECT_DIR$/web免费课/HTML.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="86" selection-start-line="86" selection-end-line="86" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/闭包.py">
+        <entry file="file://$PROJECT_DIR$/web免费课/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike50.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1825">
-              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-              <folding>
-                <element signature="e#1686#1700#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike47.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1750">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state>
+              <caret selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -117,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../e1_scrapy_baidu/e1_scrapy_baidu/spiders/baiduSpider.py" />
-        <option value="$PROJECT_DIR$/../爬虫(scrapy)/e1_scrapy_baidu/e1_scrapy_baidu/spiders/baiduSpider.py" />
-        <option value="$PROJECT_DIR$/../爬虫(scrapy)/e1_scrapy_baidu/e1_scrapy_baidu/settings.py" />
         <option value="$PROJECT_DIR$/../爬虫(scrapy)/e2_scrapy_meiju/e2_scrapy_meiju/startSpider.py" />
         <option value="$PROJECT_DIR$/../爬虫(scrapy)/e2_scrapy_meiju/e2_scrapy_meiju/settings.py" />
         <option value="$PROJECT_DIR$/../爬虫(scrapy)/e2_scrapy_meiju/e2_scrapy_meiju/spiders/meijuSpider.py" />
@@ -168,6 +118,9 @@
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike37.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/闭包.py" />
+        <option value="$PROJECT_DIR$/类(class)/class(类练习)-2.py" />
+        <option value="$PROJECT_DIR$/web免费课/HTML.md" />
+        <option value="$PROJECT_DIR$/web免费课/1.html" />
       </list>
     </option>
   </component>
@@ -183,9 +136,28 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+              <item name="类(class)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
@@ -218,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.闭包">
+  <component name="RunManager" selected="Python.class(类练习)-2">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,6 +281,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="class(类练习)-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="wode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/类(class)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/类(class)/class(类练习)-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xitike37" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="wode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,28 +317,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="F:\wode\xitike(习题课)\xitike(第4章python高级语法)\xitike37.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="xitike50" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xitike(习题课)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\wode\xitike(习题课)\xitike(第4章python高级语法)\xitike50.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -474,11 +446,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.class(类练习)-2" />
         <item itemvalue="Python.闭包" />
         <item itemvalue="Python.xitike37" />
         <item itemvalue="Python.xitike52" />
         <item itemvalue="Python.xitike51" />
-        <item itemvalue="Python.xitike50" />
       </list>
     </recent_temporary>
   </component>
@@ -678,13 +650,9 @@
       <workItem from="1568636881535" duration="9283000" />
       <workItem from="1568723699296" duration="4006000" />
       <workItem from="1568740345864" duration="1162000" />
-    </task>
-    <task id="LOCAL-00032" summary="都代修改">
-      <created>1558453708851</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1558453708852</updated>
+      <workItem from="1568741794550" duration="178000" />
+      <workItem from="1568810348902" duration="1241000" />
+      <workItem from="1568887912593" duration="170000" />
     </task>
     <task id="LOCAL-00033" summary="游戏">
       <created>1558542993351</created>
@@ -1022,7 +990,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568652232471</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="闭包">
+      <created>1568741892426</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1568741892427</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1046,7 +1021,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="733835000" />
+    <option name="totallyTimeSpent" value="735470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1059,20 +1034,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.9235925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4953083" weight="0.31586403" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6286863" weight="0.4957507" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6280161" weight="0.35410765" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49463806" weight="0.32719547" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37131366" side_tool="true" visible="true" weight="0.4957507" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37198392" side_tool="true" visible="true" weight="0.35410765" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989059" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.6119303" weight="0.33002833" />
@@ -1150,7 +1126,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="xml" />
     <MESSAGE value="网络" />
     <MESSAGE value="mail" />
     <MESSAGE value="tkinter" />
@@ -1175,7 +1150,8 @@
     <MESSAGE value="logging 半截" />
     <MESSAGE value="re 正则" />
     <MESSAGE value="高级习题课结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="高级习题课结束" />
+    <MESSAGE value="闭包" />
+    <option name="LAST_COMMIT_MESSAGE" value="闭包" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1308,7 +1284,7 @@
     <SUITE FILE_PATH="coverage/wode$v8.coverage" NAME="v8 Coverage Results" MODIFIED="1564912374090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$v01__.coverage" NAME="v01(服务器) Coverage Results" MODIFIED="1563698756963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/网络" />
     <SUITE FILE_PATH="coverage/wode$text_cfg.coverage" NAME="text_cfg Coverage Results" MODIFIED="1558889816090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/飞机大战/v3" />
-    <SUITE FILE_PATH="coverage/wode$class___2.coverage" NAME="class(类练习)-2 Coverage Results" MODIFIED="1558892490660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wode$class___2.coverage" NAME="class(类练习)-2 Coverage Results" MODIFIED="1568811420222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/类(class)" />
     <SUITE FILE_PATH="coverage/wode$.coverage" NAME="闭包 Coverage Results" MODIFIED="1568741515438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)" />
     <SUITE FILE_PATH="coverage/wode$xitike47.coverage" NAME="xitike47 Coverage Results" MODIFIED="1568540819686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)" />
     <SUITE FILE_PATH="coverage/wode$_ssl_.coverage" NAME="验证(ssl) Coverage Results" MODIFIED="1566229856415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
@@ -1351,10 +1327,6 @@
     <SUITE FILE_PATH="coverage/wode$v39.coverage" NAME="v39 Coverage Results" MODIFIED="1567683125056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘/e3_qqzhaopin/middlewares.py" />
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘/e3_qqzhaopin/settings.py" />
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘/e3_qqzhaopin/spiders/qqspider.py" />
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘/e3_qqzhaopin/pipelines.py" />
     <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1588,36 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike51.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike52.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="e#1590#1603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类(class)/list内置函数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/类(class)/import练习.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike50.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1825">
@@ -1635,10 +1577,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/类(class)/class(类练习)-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/闭包.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/类(class)/import练习.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/类(class)/list内置函数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike52.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="e#1590#1603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike51.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/HTML.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="86" selection-start-line="86" selection-end-line="86" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
