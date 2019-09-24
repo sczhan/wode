@@ -40,7 +40,7 @@ HTML概述
             - <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
               
-六. HTML标签结构
+六. HTML标签结构  1.html
 HTML 标记标签通常被称为HTML标签(HTML tag)
     - HTML 标签是由尖括号包围的关键词
     - HTML 标签通常成对出现
@@ -60,8 +60,8 @@ HTML 标记标签通常被称为HTML标签(HTML tag)
         - 双标签必须要写闭合标签
         
 
-HTML 常用标签
-一. HTML常用的块级标签(块级元素)
+HTML 常用标签 
+一. HTML常用的块级标签(块级元素)  2.html
     - 独占一行
     - 有语义的HTML块级元素
         - 有默认样式
@@ -88,3 +88,11 @@ HTML 常用标签
         - <div> 元素没有特定的含义。除此之外，由于它属于块级元素，浏览器会在其前后显示换行。
         - 一般与 CSS 一同使用
         - <div> 元素的另一个常见的用途是文档布局。它取代了使用表格定义布局的老式方法。
+
+二. HTML 常用的行级标签(行内元素) 3.html
+- 不独占一行
+
+- 有语义的行内元素
+    - HTML 链接 a标签
+        - <a href="链接地址">链接文本</a>
+        
