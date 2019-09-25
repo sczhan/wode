@@ -95,4 +95,12 @@ HTML 常用标签
 - 有语义的行内元素
     - HTML 链接 a标签
         - <a href="链接地址">链接文本</a>
+        - target属性，定义被链接的文档在何处显示  _blank 新窗口打开
         
+    - HTML图像
+        - <img src="图片地址" alt="">
+    - 文本标签
+        - b标签 i标签 strong标签 em标签
+
+- 无语义的行内元素
+    - span标签 配合css使用
