@@ -104,3 +104,39 @@ HTML 常用标签
 
 - 无语义的行内元素
     - span标签 配合css使用
+
+三、常用的实体字符
+    - gt;
+    - lt;
+    - copy;
+
+四、表单标签   4.html
+- 表单是一个包含表单元素的区域。通过form来定义表单区域
+    - 通过type属性定义不同类型的表单控件
+    - text 普通文本输入框
+    - password 密码输入框
+    - radio    单选按钮
+    - checked  多选按钮
+    - select   下拉框
+    - file     文件上传选框
+    - textarea 文本域
+    - submit   提交按钮
+    - reset    充值按钮
+    - hidden   隐藏域，要和表单单一其提交的信息
+
+- 常用属性：
+    - name 属性：表单项名，用于存储内容值
+    - value属性：输入的值
+    - disabled属性：禁用属性
+    - readonly属性：禁用属性
+    - checked属性：选择框指定默认选项
+    - placeholder：提示
+    - 注意：
+        - form 有两个必须存在的属性 action提交地址 metchod提交方式
+        - post:通过request body传参，参数不可见，参数没有大小限制
+        - get:通url进行传参，参数可见，不安全，大小有限制，
+
+    - 如果表单中含有文件上传 
+        - method提交方式必须为post 
+        - form中必须有enctype属性
+        - enctype="multipart/form-data"
