@@ -183,9 +183,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="740" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -276,10 +276,10 @@
     <configuration name="4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web免费课/4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="表格(课程表).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web免费课/表格(课程表).html" useBuiltInWebServerPort="true">
+    <configuration name="表格(课程表).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/表格(课程表).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="锚点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web免费课/锚点.html" useBuiltInWebServerPort="true">
+    <configuration name="锚点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/锚点.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="html常用标签.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/html常用标签.html" useBuiltInWebServerPort="true">
