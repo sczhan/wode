@@ -116,7 +116,7 @@ HTML 常用标签
     - text 普通文本输入框
     - password 密码输入框
     - radio    单选按钮
-    - checked  多选按钮
+    - checkbox  多选按钮
     - select   下拉框
     - file     文件上传选框
     - textarea 文本域

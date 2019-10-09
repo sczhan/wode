@@ -30,13 +30,13 @@
          密 码: <input name="password" type="password" value=""><br>
 
         <!--单选框 type="radio" 必须有name属性和value属性, 并且一组单选框name属性的值必须相同-->
-        性 别: <input checked name="sex" type="radio" value="1">男
+        性 别: <input  name="sex" type="radio" value="1">男
                 <input name="sex" type="radio" value="0">女
         <br>
 
         <!--多选框 type="checkbox" 必须指定name属性和value属性, 并且一组多选框name属性的值名字要相同-->
         爱好: <br>
-              <input checked name="love[]" type="checkbox" value="1">篮球<br>
+              <input name="love[]" type="checkbox" value="1">篮球<br>
               <input name="love[]" type="checkbox" value="2">足球<br>
               <input name="love[]" type="checkbox" value="2">乒乓球<br>
 
@@ -45,7 +45,7 @@
                 -->
         学历:<br>
             <select name="xl">
-                <option  value="0">小学</option>
+                <option value="0">小学</option>
                 <option value="1">初中</option>
                 <option value="2">高中</option>
                 <option value="3">大学</option>

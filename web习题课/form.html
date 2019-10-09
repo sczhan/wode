@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单</title>
+</head>
+<body>
+    <form action="http://zhan.com:5000/login" method="post">
+
+        <!--label 标签定义文本标注, type=text 普通文本-->
+        <p>
+        <label>用户名:</label><input name="username" type="text" value="">
+        </p>
+
+        <!-- type=password 密码输入框 -->
+        <p>
+            <label>密码</label><input name="password" type="password" value="">
+        </p>
+
+        <!-- type=radio 定义单选框-->
+        <p>
+            <label>性别</label>
+            <label><input name="sex" type="radio" value="0">男</label>
+            <label><input name="sex" type="radio" value="1">女</label>
+        </p>
+
+        <!-- textarea 标签定义多行文本框-->
+        <p>
+            <label>说明</label>
+            <textarea name="个人描述" ></textarea>
+        </p>
+
+        <!-- type=checked多选框-->
+        <p>
+            <label>爱好:</label>
+            <label><input name="like[]" type="checkbox" value="eat">吃</label>
+            <label><input name="like[]" type="checkbox" value="sleep">睡觉</label>
+            <label><input name="like[]" type="checkbox" value="food">步行</label>
+            <label><input name="like[]" type="checkbox" value="swim">游泳</label>
+        </p>
+
+        <!-- select 定义下拉选框 -->
+        <p>
+            <label>位置</label>
+           <select name="seit" >
+               <option value="0">北京</option>
+               <option value="1">南京</option>
+               <option value="2">上海</option>
+               <option value="3">深圳</option>
+           </select>
+        </p>
+
+        <!-- type=submit 定义提交按钮
+             type=reset 重置表单内容, 回到初始状态-->
+        <p>
+            <!-- form表单中的button具有提交功能-->
+            <button>提交</button>
+            <!-- <input type="submit" name="" value="注册">-->
+            <input name="" type="image" value="提交2">
+            <input name="" type="reset" value="重置">
+        </p>
+
+    </form>
+
+<!-- http://  端口 80
+     https://  端口 443
+     服务器地址 www.baidu.com:80
+     /s: 文件路径
+     ?xxx : 参数
+     -->
+</body>
+</html>
