@@ -14,6 +14,7 @@ def index():
 def login():
     print(request.form.items())
     print(request.form)
+
     for k, v in request.form.items():
         print(k, "----", v)
     username = request.form.get("username", "")

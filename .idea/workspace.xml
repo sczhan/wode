@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d684d2be-46fb-4cb4-ab7d-47f69b1b5d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web习题课/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web习题课/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web免费课/css/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web免费课/css/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web免费课/css/css.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web免费课/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web免费课/HTML.md" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/HTML.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web习题课/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/web习题课/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web习题课/html常用标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/web习题课/html常用标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web习题课/锚点.html" beforeDir="false" afterPath="$PROJECT_DIR$/web习题课/锚点.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web免费课/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/html/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web免费课/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/html/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web免费课/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/html/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web免费课/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/html/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web免费课/HTML.md" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/html/HTML.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web免费课/复习1-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/web免费课/html/复习1-2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web免费课/HTML.md">
+        <entry file="file://$PROJECT_DIR$/web免费课/html/HTML.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-192">
+              <first_editor relative-caret-position="133">
                 <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
               </first_editor>
               <second_editor />
@@ -29,10 +37,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web免费课/4.html">
+        <entry file="file://$PROJECT_DIR$/web免费课/html/4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="208">
+              <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web免费课/css/css.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="310">
+                <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web免费课/css/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web免费课/css/1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/e_tulingxueyuan/前端/day03css/css.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="175">
+                <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                <folding>
+                  <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -40,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web习题课/form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="625">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="e#1#24#0" expanded="true" />
               </folding>
@@ -49,20 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web习题课/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web习题课/表格(课程表).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="659">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -70,38 +117,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web习题课/html常用标签.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="106">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web免费课/3.html">
+        <entry file="file://$PROJECT_DIR$/web免费课/html/3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
               <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web免费课/1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web免费课/2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2450">
-              <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -140,9 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../爬虫(scrapy)/e4_xhw/e4_xhw/middlewares.py" />
-        <option value="$PROJECT_DIR$/xitike/xitike38.py" />
-        <option value="$PROJECT_DIR$/xitike/xitike40.py" />
         <option value="$PROJECT_DIR$/xitike/xitike39.py" />
         <option value="$PROJECT_DIR$/xitike/xitike41.py" />
         <option value="$PROJECT_DIR$/xitike/1234.json" />
@@ -188,15 +214,18 @@
         <option value="$PROJECT_DIR$/web免费课/锚点.html" />
         <option value="$PROJECT_DIR$/web免费课/表格(课程表).html" />
         <option value="$PROJECT_DIR$/web免费课/HTML.md" />
-        <option value="$PROJECT_DIR$/web免费课/4.html" />
-        <option value="$PROJECT_DIR$/web习题课/form.py" />
         <option value="$PROJECT_DIR$/web习题课/form.html" />
+        <option value="$PROJECT_DIR$/web习题课/form.py" />
+        <option value="$PROJECT_DIR$/web免费课/4.html" />
+        <option value="$PROJECT_DIR$/web免费课/css.md" />
+        <option value="$PROJECT_DIR$/web免费课/css/1.css" />
+        <option value="$PROJECT_DIR$/web免费课/css/1.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="723" />
+    <option name="width" value="674" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -206,7 +235,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+              <item name="web免费课" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+              <item name="web免费课" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -219,15 +272,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\pychrm文件" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wode\web免费课\html" />
+      <recent name="F:\wode\web免费课\css" />
       <recent name="F:\wode\web习题课" />
       <recent name="F:\wode\xitike(习题课)\xitike(第4章python高级语法)" />
       <recent name="F:\wode\面板(tkinter)" />
-      <recent name="F:\爬虫(scrapy)\e4_xhw\e4_xhw\spiders" />
-      <recent name="F:\wode\爬虫\scrapy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\pychrm文件" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.form.html">
+  <component name="RunManager" selected="JavaScript Debug.1.html">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,16 +316,16 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web免费课/css/1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web免费课/html/4.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="表格(课程表).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/表格(课程表).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="锚点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/锚点.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/form.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="html常用标签.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/web习题课/html常用标签.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -422,11 +475,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.1.html" />
+        <item itemvalue="JavaScript Debug.4.html" />
         <item itemvalue="JavaScript Debug.form.html" />
         <item itemvalue="Python.form" />
         <item itemvalue="JavaScript Debug.表格(课程表).html" />
-        <item itemvalue="JavaScript Debug.锚点.html" />
-        <item itemvalue="JavaScript Debug.html常用标签.html" />
       </list>
     </recent_temporary>
   </component>
@@ -643,14 +696,8 @@
       <workItem from="1569664335346" duration="5843000" />
       <workItem from="1570540229697" duration="7542000" />
       <workItem from="1570548614128" duration="579000" />
-      <workItem from="1570629651624" duration="8323000" />
-    </task>
-    <task id="LOCAL-00040" summary="v03">
-      <created>1559491400186</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1559491400186</updated>
+      <workItem from="1570629651624" duration="8966000" />
+      <workItem from="1571056130825" duration="3942000" />
     </task>
     <task id="LOCAL-00041" summary="高级语法">
       <created>1559898525109</created>
@@ -988,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570547987967</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="form 表单">
+      <created>1570638141134</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1570638141137</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1012,7 +1066,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="771566000" />
+    <option name="totallyTimeSpent" value="776151000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1024,22 +1078,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="539" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.9585062" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.93762994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4953083" weight="0.31586403" />
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.48846152" weight="0.32808024" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.61461127" visible="true" weight="0.34985834" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6141079" weight="0.3538682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.38538873" side_tool="true" visible="true" weight="0.34985834" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.38589212" side_tool="true" visible="true" weight="0.35530087" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.6072386" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4989059" weight="0.3286119" />
@@ -1094,7 +1148,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="爬虫" />
     <MESSAGE value="爬虫cookie" />
     <MESSAGE value="js加密" />
     <MESSAGE value="ssl" />
@@ -1119,7 +1172,8 @@
     <MESSAGE value="html2" />
     <MESSAGE value="html 免费课 完成" />
     <MESSAGE value="html 习题课" />
-    <option name="LAST_COMMIT_MESSAGE" value="html 习题课" />
+    <MESSAGE value="form 表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="form 表单" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1203,7 +1257,7 @@
     <SUITE FILE_PATH="coverage/wode$p04.coverage" NAME="p04 Coverage Results" MODIFIED="1559892223076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法" />
     <SUITE FILE_PATH="coverage/wode$02_opp.coverage" NAME="02-opp Coverage Results" MODIFIED="1558540224289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wode$13.coverage" NAME="多线程13 Coverage Results" MODIFIED="1561799320421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
-    <SUITE FILE_PATH="coverage/wode$form.coverage" NAME="form Coverage Results" MODIFIED="1570637741382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web习题课" />
+    <SUITE FILE_PATH="coverage/wode$form.coverage" NAME="form Coverage Results" MODIFIED="1570638269154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web习题课" />
     <SUITE FILE_PATH="coverage/wode$v38.coverage" NAME="v38 Coverage Results" MODIFIED="1566927013486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$class__.coverage" NAME="class(类练习) Coverage Results" MODIFIED="1557236789490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wode$bigplane.coverage" NAME="bigplane Coverage Results" MODIFIED="1559458187716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/飞机大战/v03" />
@@ -1297,43 +1351,6 @@
     <SUITE FILE_PATH="coverage/wode$v39.coverage" NAME="v39 Coverage Results" MODIFIED="1567683125056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e4_xhw/e4_xhw/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#194#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e4_xhw/e4_xhw/spiders/xhwspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/spiders/qqspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike42.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1563,58 +1580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/复习1-2.html">
+    <entry file="file://$PROJECT_DIR$/web免费课/html/复习1-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2450">
-          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web习题课/html常用标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/HTML.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-192">
-            <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web习题课/表格(课程表).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1625,17 +1594,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/4.html">
+    <entry file="file://$PROJECT_DIR$/web习题课/表格(课程表).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/html/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/html/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/html/HTML.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web习题课/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="625">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="e#1#24#0" expanded="true" />
           </folding>
@@ -1644,8 +1637,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web习题课/form.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web习题课/html常用标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/html/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/html/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/css/css.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="310">
+            <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/e_tulingxueyuan/前端/day03css/css.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <folding>
+              <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/css/1.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web免费课/css/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
