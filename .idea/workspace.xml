@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d684d2be-46fb-4cb4-ab7d-47f69b1b5d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_04_伯乐在线.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,90 +15,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_01_百度贴吧.py">
+        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_02_代理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_03_开心网.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_04_伯乐在线.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1136">
-              <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#68#108#0" expanded="true" />
+                <element signature="e#227#236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="941">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <folding>
+                <element signature="e#157#172#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py">
+        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="333">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <element signature="e#227#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/v12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web习题课/form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web免费课/html/3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#124#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xitike(习题课)/789.txt" />
-        <option value="$PROJECT_DIR$/xitike(习题课)/xitike43.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike44.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike45.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike46.py" />
@@ -189,12 +133,14 @@
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_03_开心网.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_04_伯乐在线.py" />
         <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py" />
+        <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py" />
+        <option value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="667" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -204,7 +150,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+              <item name="xitike(习题课)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wode" type="462c0819:PsiDirectoryNode" />
+              <item name="xitike(习题课)" type="462c0819:PsiDirectoryNode" />
+              <item name="xitike(第6章爬虫与实践)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -241,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spider_05_猫眼电影">
+  <component name="RunManager" selected="Python.spider_07_扇贝单词">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,9 +230,6 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="开心网.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wode/xitike(习题课)/xitike(第6章爬虫与实践)/开心网.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -313,42 +280,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider_02_代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wode" />
+    <configuration name="e07-扇贝单词联系" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="E:\Anaconda\envs\oop\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/e_tulingxueyuan/爬虫练讲义习" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_02_代理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="spider_03_开心网" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_03_开心网.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/e_tulingxueyuan/爬虫练讲义习/e07-扇贝单词联系.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,6 +338,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider_06_臭事百科" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="wode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spider_07_扇贝单词" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="wode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -478,11 +467,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spider_07_扇贝单词" />
+        <item itemvalue="Python.e07-扇贝单词联系" />
+        <item itemvalue="Python.spider_06_臭事百科" />
         <item itemvalue="Python.spider_05_猫眼电影" />
         <item itemvalue="Python.spider_04_伯乐在线" />
-        <item itemvalue="JavaScript Debug.开心网.html" />
-        <item itemvalue="Python.spider_03_开心网" />
-        <item itemvalue="Python.spider_02_代理" />
       </list>
     </recent_temporary>
   </component>
@@ -710,14 +699,13 @@
       <workItem from="1573633415719" duration="4190000" />
       <workItem from="1573642231389" duration="7730000" />
       <workItem from="1573734559488" duration="3899000" />
-      <workItem from="1575109822278" duration="3931000" />
-    </task>
-    <task id="LOCAL-00046" summary="函数编程式">
-      <created>1560786669761</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1560786669761</updated>
+      <workItem from="1575109822278" duration="4607000" />
+      <workItem from="1575964880219" duration="41000" />
+      <workItem from="1575992631999" duration="1329000" />
+      <workItem from="1576069401244" duration="3110000" />
+      <workItem from="1576484216876" duration="2501000" />
+      <workItem from="1576486750856" duration="794000" />
+      <workItem from="1576506576733" duration="4249000" />
     </task>
     <task id="LOCAL-00047" summary="测试">
       <created>1561136732255</created>
@@ -1055,7 +1043,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573666712666</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="爬虫与实践spider5">
+      <created>1575116188476</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1575116188477</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1079,7 +1074,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="811737000" />
+    <option name="totallyTimeSpent" value="824437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1091,16 +1086,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.9411765" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.9405256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463806" weight="0.31586403" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.48846152" weight="0.32664755" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.61132073" visible="true" weight="0.34419262" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49463806" weight="0.31375358" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.48846152" weight="0.44475922" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.61132073" visible="true" weight="0.34383956" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -1161,7 +1156,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bs" />
     <MESSAGE value="chromedriver" />
     <MESSAGE value="e3.e4加习题课" />
     <MESSAGE value="e4" />
@@ -1186,7 +1180,8 @@
     <MESSAGE value="css颜色字体1" />
     <MESSAGE value="css颜色字体完" />
     <MESSAGE value="爬虫与实践spider" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫与实践spider" />
+    <MESSAGE value="爬虫与实践spider5" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫与实践spider5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1218,6 +1213,7 @@
     <SUITE FILE_PATH="coverage/wode$v36.coverage" NAME="v36 Coverage Results" MODIFIED="1566639617181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$23.coverage" NAME="多线程23 Coverage Results" MODIFIED="1562063678090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
     <SUITE FILE_PATH="coverage/wode$sky.coverage" NAME="sky Coverage Results" MODIFIED="1559449035550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/飞机大战/v03" />
+    <SUITE FILE_PATH="coverage/wode$spider_07_.coverage" NAME="spider_07_扇贝单词 Coverage Results" MODIFIED="1576510950245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
     <SUITE FILE_PATH="coverage/wode$14.coverage" NAME="多线程14 Coverage Results" MODIFIED="1561800731411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
     <SUITE FILE_PATH="coverage/wode$05_oop.coverage" NAME="05-oop Coverage Results" MODIFIED="1556635710535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wode$v30.coverage" NAME="v30 Coverage Results" MODIFIED="1566631662357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
@@ -1277,6 +1273,7 @@
     <SUITE FILE_PATH="coverage/wode$bigplane.coverage" NAME="bigplane Coverage Results" MODIFIED="1559458187716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/飞机大战/v03" />
     <SUITE FILE_PATH="coverage/wode$v4.coverage" NAME="v4 Coverage Results" MODIFIED="1564850593963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$p06.coverage" NAME="p06 Coverage Results" MODIFIED="1559893903459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法" />
+    <SUITE FILE_PATH="coverage/wode$spider_06_.coverage" NAME="spider_06_臭事百科 Coverage Results" MODIFIED="1576073658911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
     <SUITE FILE_PATH="coverage/wode$log02.coverage" NAME="log02 Coverage Results" MODIFIED="1561303055895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法" />
     <SUITE FILE_PATH="coverage/wode$24.coverage" NAME="多线程24 Coverage Results" MODIFIED="1562063623372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
     <SUITE FILE_PATH="coverage/wode$v11.coverage" NAME="v11 Coverage Results" MODIFIED="1565271028919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
@@ -1285,6 +1282,7 @@
     <SUITE FILE_PATH="coverage/wode$02.coverage" NAME="多线程02 Coverage Results" MODIFIED="1561798387455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
     <SUITE FILE_PATH="coverage/wode$v27.coverage" NAME="v27 Coverage Results" MODIFIED="1566305444960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$ap.coverage" NAME="ap Coverage Results" MODIFIED="1558884898524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/飞机大战/v1" />
+    <SUITE FILE_PATH="coverage/wode$e07_.coverage" NAME="e07-扇贝单词联系 Coverage Results" MODIFIED="1576508122010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/e_tulingxueyuan/爬虫练讲义习" />
     <SUITE FILE_PATH="coverage/wode$v22.coverage" NAME="v22 Coverage Results" MODIFIED="1566635123692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$qqstart__1_.coverage" NAME="qqstart (1) Coverage Results" MODIFIED="1567836213398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin" />
     <SUITE FILE_PATH="coverage/wode$import_lianxi_.coverage" NAME="import(lianxi) Coverage Results" MODIFIED="1557565467260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1335,7 +1333,7 @@
     <SUITE FILE_PATH="coverage/wode$class_4__import.coverage" NAME="class(类练习4)-import Coverage Results" MODIFIED="1558892535346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wode$log01.coverage" NAME="log01 Coverage Results" MODIFIED="1562753248005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/日志(log)" />
     <SUITE FILE_PATH="coverage/wode$v02__.coverage" NAME="v02(客户端) Coverage Results" MODIFIED="1563698801059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/网络" />
-    <SUITE FILE_PATH="coverage/wode$spider_05_.coverage" NAME="spider_05_猫眼电影 Coverage Results" MODIFIED="1575115653377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
+    <SUITE FILE_PATH="coverage/wode$spider_05_.coverage" NAME="spider_05_猫眼电影 Coverage Results" MODIFIED="1575993349500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
     <SUITE FILE_PATH="coverage/wode$v28.coverage" NAME="v28 Coverage Results" MODIFIED="1566634821133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/wode$xitike52__1_.coverage" NAME="xitike52 (1) Coverage Results" MODIFIED="1568889092902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)" />
     <SUITE FILE_PATH="coverage/wode$dict.coverage" NAME="dict Coverage Results" MODIFIED="1556205237560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pychrm文件" />
@@ -1369,114 +1367,6 @@
     <SUITE FILE_PATH="coverage/wode$v39.coverage" NAME="v39 Coverage Results" MODIFIED="1567683125056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/类(class)/class(类练习)-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/e_tulingxueyuan/前端/前端课件代码day01/HTML文档.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="191" column="5" selection-start-line="188" selection-end-line="206" selection-end-column="33" />
-            <folding>
-              <element signature="e#0#4#0" expanded="true" />
-              <element signature="e#4#8#0" expanded="true" />
-              <element signature="e#8#14#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web习题课/锚点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/html/复习1-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web习题课/表格(课程表).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/html/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/html/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2450">
-          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/html/4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/css/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web习题课/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#1#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/e_tulingxueyuan/前端/day03css/css.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1268">
-            <caret line="56" selection-start-line="56" selection-end-line="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/css/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web免费课/css/4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web免费课/html/HTML.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1567,18 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-391727522/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2406">
-          <caret line="349" column="6" selection-start-line="349" selection-start-column="6" selection-end-line="349" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike39.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1141" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/v10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-491">
@@ -1619,49 +1497,33 @@
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/cookie.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/开心网.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike52.py">
+    <entry file="file://E:/Anaconda/envs/oop/Lib/urllib/request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#1590#1603#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py">
+    <entry file="file://$PROJECT_DIR$/爬虫/v11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="225">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike38.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="253">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_01_百度贴吧.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="700">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
@@ -1677,6 +1539,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_04_伯乐在线.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2525">
+          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/v12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -1697,57 +1580,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_04_伯乐在线.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike52.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1136">
-          <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        <state relative-caret-position="250">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
-            <element signature="e#68#108#0" expanded="true" />
+            <element signature="e#1590#1603#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Anaconda/envs/oop/Lib/urllib/request.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike39.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        <state relative-caret-position="-894" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike45.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike40.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/v11.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike37.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="1230">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/v12.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike38.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-1169">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike41.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike44.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike48.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike50.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第4章python高级语法)/xitike46.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/e_tulingxueyuan/爬虫练讲义习/e07-扇贝单词联系.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#119#145#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        <state relative-caret-position="941">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="e#157#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-391727522/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3150">
+          <caret line="354" column="62" selection-start-line="354" selection-start-column="62" selection-end-line="354" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/开心网.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="200" column="16" selection-start-line="200" selection-start-column="16" selection-end-line="200" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/envs/oop/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="121" column="45" selection-start-line="119" selection-start-column="12" selection-end-line="121" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state>
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#227#267#0" expanded="true" />
+            <element signature="e#227#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/扇贝单词.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/扇贝单词.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#124#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
