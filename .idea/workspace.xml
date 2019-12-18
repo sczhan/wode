@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d684d2be-46fb-4cb4-ab7d-47f69b1b5d24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/cishitime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_08_腾讯招聘.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/spiders/qqspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/spiders/qqspider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/qq.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="625">
               <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding>
                 <element signature="e#227#236#0" expanded="true" />
@@ -32,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="925">
               <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding>
                 <element signature="e#157#172#0" expanded="true" />
@@ -44,11 +40,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="362">
               <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="e#124#135#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_08_腾讯招聘.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -62,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/spiders/qqspider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -83,10 +88,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/qq.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="309" column="24" lean-forward="true" selection-start-line="309" selection-start-column="24" selection-end-line="309" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="300">
               <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
@@ -95,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="525">
               <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
@@ -190,9 +204,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -738,14 +752,8 @@
       <workItem from="1576674863080" duration="1088000" />
       <workItem from="1576676151345" duration="6130000" />
       <workItem from="1576684618955" duration="683000" />
-      <workItem from="1576685332334" duration="9495000" />
-    </task>
-    <task id="LOCAL-00048" summary="log">
-      <created>1561224188395</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1561224188395</updated>
+      <workItem from="1576685332334" duration="9587000" />
+      <workItem from="1576695380479" duration="236000" />
     </task>
     <task id="LOCAL-00049" summary="多线程">
       <created>1561308594920</created>
@@ -1083,7 +1091,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576511042698</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="爬虫与实践spider8 腾讯招聘">
+      <created>1576694900479</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1576694900480</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1107,7 +1122,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="863144000" />
+    <option name="totallyTimeSpent" value="863472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1372,7 +1387,7 @@
     <SUITE FILE_PATH="coverage/wode$17.coverage" NAME="多线程17 Coverage Results" MODIFIED="1561805029662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
     <SUITE FILE_PATH="coverage/wode$spider_03_.coverage" NAME="spider_03_开心网 Coverage Results" MODIFIED="1573666621753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)" />
     <SUITE FILE_PATH="coverage/wode$v9.coverage" NAME="v9 Coverage Results" MODIFIED="1565107643693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/wode$qqstart.coverage" NAME="qqstart Coverage Results" MODIFIED="1576694750014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin" />
+    <SUITE FILE_PATH="coverage/wode$qqstart.coverage" NAME="qqstart Coverage Results" MODIFIED="1576695583861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin" />
     <SUITE FILE_PATH="coverage/wode$xitike40.coverage" NAME="xitike40 Coverage Results" MODIFIED="1567680794852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xitike" />
     <SUITE FILE_PATH="coverage/wode$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1567785340609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../爬虫(scrapy)/e3_qq招聘" />
     <SUITE FILE_PATH="coverage/wode$10.coverage" NAME="多线程10 Coverage Results" MODIFIED="1561652480200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级语法/多线程" />
@@ -1671,16 +1686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_08_腾讯招聘.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <element signature="e#69#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1720,29 +1725,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#124#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#157#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_05_猫眼电影.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="625">
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
           <folding>
             <element signature="e#227#236#0" expanded="true" />
@@ -1750,17 +1735,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/items.py">
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_06_臭事百科.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="925">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="e#157#172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1771,14 +1752,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/qq.json">
+    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="194" column="23" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-190150" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_07_扇贝单词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#124#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xitike(习题课)/xitike(第6章爬虫与实践)/spider_08_腾讯招聘.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/spiders/qqspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/qqstart.py">
@@ -1788,13 +1800,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/e3_qqzhaopin/spiders/qqspider.py">
+    <entry file="file://$PROJECT_DIR$/../爬虫(scrapy)/e3_qqzhaopin/qq.json">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-190150" />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="309" column="24" lean-forward="true" selection-start-line="309" selection-start-column="24" selection-end-line="309" selection-end-column="24" />
         </state>
       </provider>
     </entry>
