@@ -1,0 +1,82 @@
+[
+    {
+        "name": "assert",
+        "content": "vt. 主张,声明,断言"
+    },
+    {
+        "name": "assignment",
+        "content": "n. 分配,功课,任务,被指定的(课外)作业;(分派的)任务, 委派"
+    },
+    {
+        "name": "asymptotic",
+        "content": "adj.[数]渐近线的,渐近的"
+    },
+    {
+        "name": "automobile",
+        "content": "n. 汽车\nadj. 汽车的"
+    },
+    {
+        "name": "balance",
+        "content": "n. 天平, 平衡, 差额, 平静, 调和, 制衡\nvt. 使平衡, 称重量, 权衡, 抵消\nvi. 建立平衡, 均衡"
+    },
+    {
+        "name": "binary",
+        "content": "adj. 二进位的,二元的\nn. 二进制,二元"
+    },
+    {
+        "name": "bind",
+        "content": "vt. 绑,约束,装订,粘合"
+    },
+    {
+        "name": "bisection",
+        "content": "n.两断,对分"
+    },
+    {
+        "name": "blank",
+        "content": "adj. 空白的, 茫然的, 全部的, 面无表情的, 未完工的\nn. 空白(处), 空隙, 空虚, (有弹药而无弹头的)空弹\nvi. 消失, 走神\nvt. 使模糊不清, 删除, 封闭, (比赛时连续得分)使对手得零分"
+    },
+    {
+        "name": "block",
+        "content": "n.块； 街区； <英>大楼，大厦； 障碍物，阻碍\nvt.阻止； 阻塞； 限制"
+    },
+    {
+        "name": "bookmark",
+        "content": "n. 书签"
+    },
+    {
+        "name": "bound",
+        "content": "n. 跳跃,界限,范围\nadj. 必定的，受约束的,装订的,有义务的\nvt. 跳跃前进，形成界限"
+    },
+    {
+        "name": "bundle",
+        "content": "n. 捆,束,一批,一大笔钱\nvt. 捆,匆匆送走,附赠\nvi. 匆忙"
+    },
+    {
+        "name": "calculator",
+        "content": "n. 计算器"
+    },
+    {
+        "name": "canopy",
+        "content": "n. 天篷, 遮篷, 苍穹"
+    },
+    {
+        "name": "capitalize",
+        "content": "v. 以大写字母写, 使...资本化, 计算...的现价"
+    },
+    {
+        "name": "capture",
+        "content": "n. 抓取,战利品,捕获之物\nvt. 抓取,获得,迷住"
+    },
+    {
+        "name": "cardiovascular",
+        "content": "adj. 心脏血管的"
+    },
+    {
+        "name": "cascade",
+        "content": "n. 瀑布，[电]串联\nv. 瀑布似地落下，（将...）连结，串联"
+    },
+    {
+        "name": "category",
+        "content": "n. 种类, 类别"
+    }
+]

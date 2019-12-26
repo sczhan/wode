@@ -1,9 +1,7 @@
-
 """
 登录开心网
 利用cookie
 免除ssl
-
 步骤:
     1.寻找登录入口, 通过搜查相应文字可以快速定位
         login_url = "https://security.kaixin001.com/login/login_post.php"

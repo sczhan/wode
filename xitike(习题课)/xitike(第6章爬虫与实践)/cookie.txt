@@ -1,0 +1,12 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.kaixin001.com	TRUE	/	FALSE	1605202551	_email	13222057990
+.kaixin001.com	TRUE	/	FALSE	1605202551	_laid	0
+.kaixin001.com	TRUE	/	FALSE	1576258551	_preemail	13222057990
+.kaixin001.com	TRUE	/	FALSE		_ref	5dcc3ef7d59d3
+.kaixin001.com	TRUE	/	FALSE		_sso	181889968
+.kaixin001.com	TRUE	/	FALSE		_uid	181889968
+.kaixin001.com	TRUE	/	FALSE		_user	90f3adbfb329012eb04cf135df9b27b7_181889968_1573666551
+www.kaixin001.com	FALSE	/	FALSE		SERVERID	_srv80-70_
