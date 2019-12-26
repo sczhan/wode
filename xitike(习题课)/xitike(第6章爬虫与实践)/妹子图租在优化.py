@@ -53,7 +53,7 @@ def down(page, name, imgsss):
     d = c.findall(a[1])
     e = [i for i in range(1, 10)]
     page = int(page) + 1
-    # fi= os.makedirs(r"F:\wode\妹子图\%s" %(name))   # 创建文件夹
+    fi= os.makedirs(r"F:\wode\妹子图\%s" %(name))   # 创建文件夹
     file_root_path = os.path.dirname(os.path.abspath(__file__))  # 获取当前目录的绝对路径
     img_dir_path = os.path.join(file_root_path, r'F:\wode\妹子图\%s'% name)  # 文件路径
     for i in range(1, page):
