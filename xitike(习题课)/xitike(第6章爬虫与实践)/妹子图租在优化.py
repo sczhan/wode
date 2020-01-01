@@ -1,4 +1,5 @@
 
+import json
 import os
 import random
 import re
@@ -25,11 +26,14 @@ def lianjie(page):
         img = html.xpath("//div/ul[@id='pins']/li")
 
         for i in img:
+
+
             img_downs = i.xpath(".//a/@href")[0]
             imgss = str(img_downs)
             # pages(imgss)
             img_down.append(img_downs)
         pages(random.choice(img_down))
+            # pages(img_downs)
 
 
 def pages(url):
@@ -43,7 +47,17 @@ def pages(url):
     page = html.xpath("//div[2]/div[1]/div[4]/a[5]/span/text()")[0]
     name = html.xpath("//div[@class='content']/h2/text()")[0]
     imgsss = html.xpath("//div[@class='main-image']/p/a/img/@src")[0]
+    print(imgsss)
+    jilu = {}
+    jilu["name"] = name
+    jilu["page"] = page
+    jilu["img_zhuye"] = imgsss
+    cont = json.dumps(jilu, ensure_ascii=False, indent=4)
+    with open("meizitu.json", "a", encoding="utf-8")as f:
+        f.write(cont)
+    print(jilu)
     down(page, name, imgsss)
+
 
 
 def down(page, name, imgsss):
@@ -56,6 +70,7 @@ def down(page, name, imgsss):
     fi= os.makedirs(r"F:\wode\妹子图\%s" %(name))   # 创建文件夹
     file_root_path = os.path.dirname(os.path.abspath(__file__))  # 获取当前目录的绝对路径
     img_dir_path = os.path.join(file_root_path, r'F:\wode\妹子图\%s'% name)  # 文件路径
+    c = []
     for i in range(1, page):
         if i in e:
             q = str(d[0]) + "0" + str(i)
@@ -69,16 +84,20 @@ def down(page, name, imgsss):
 
             tpianname = str(name) + str(i) + ".jpg"
             urls = urls
-            open = request.build_opener()
-            open.addheaders = [("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Referer", "https://www.mzitu.com/xinggan/")]
-            request.install_opener(open)
+            c.append(urls)
+            opens = request.build_opener()
+            opens.addheaders = [("User-Agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"),("Referer", "https://www.mzitu.com/xinggan/")]
+            request.install_opener(opens)
             file_down = os.path.join(img_dir_path, tpianname)
             request.urlretrieve(urls, file_down)
             print("下载完成:   " + tpianname)
-            time.sleep(1)
+            time.sleep(0.2)
         except Exception as es:
             print(es)
-
+    b = c
+    bs = json.dumps(b, ensure_ascii=False, indent=4)
+    with open("meizitu.json", "a", encoding="utf-8")as f:
+        f.write(bs)
 
 def sele(img_down):
     driver = webdriver.Chrome()
@@ -92,4 +111,4 @@ def sele(img_down):
 if __name__ == "__main__":
     lianjie(2)
     print(img_down)
-    sele(img_down)
+    # sele(img_down)
