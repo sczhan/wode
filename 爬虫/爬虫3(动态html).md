@@ -75,7 +75,7 @@
     
 # Tesseract
 - 机器视觉领域的基础软件
-- OCR: OPticalChracterRecognition, 光学文字识别
+- OCR: OpticalChracterRecognition, 光学文字识别
 - Tesseract: 一个ocr库, 有google赞助
     - 安装: 
         - windows: https://jingyan.baidu.com/article/219f4bf788addfde442d38fe.html

@@ -39,19 +39,19 @@
 3. 保存我们获取到的数据,然后打印出来
 """
 
-import os
-
-all_files = os.listdir(os.curdir)
-file_dict = dict()
-
-for each_file in all_files:
-    # 判断我们的这个each_file是不是文件
-    if os.path.isfile(each_file):
-        file_siza = os.path.getsize(each_file)
-        file_dict[each_file] = file_siza
-
-for each in file_dict.items():
-    print("{} 大小 {}".format(each[0], each[1]))
+# import os
+#
+# all_files = os.listdir(os.curdir)
+# file_dict = dict()
+#
+# for each_file in all_files:
+#     # 判断我们的这个each_file是不是文件
+#     if os.path.isfile(each_file):
+#         file_siza = os.path.getsize(each_file)
+#         file_dict[each_file] = file_siza
+#
+# for each in file_dict.items():
+#     print("{} 大小 {}".format(each[0], each[1]))
 
 
 """
@@ -64,13 +64,13 @@ for each in file_dict.items():
 
 import os
 
-all_file2 = os.listdir(r"D:\迅雷下载\\")
+all_file2 = os.listdir(r"D:\\")
 file_dict = dict()
 
 for each_file in all_file2:
     # 判断我们的这个each_file是不是文件
-    if os.path.isfile(r"D:\迅雷下载\\" + each_file):
-        file_siza = os.path.getsize(r"D:\迅雷下载\\" + each_file)
+    if os.path.isfile(r"D:\\" + each_file):
+        file_siza = os.path.getsize(r"D:\\" + each_file)
         file_dict[each_file] = file_siza
 
 for each in file_dict.items():

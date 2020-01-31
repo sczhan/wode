@@ -4,8 +4,8 @@
 2. 每次多出现几部电影的信息
 """
 import json
-import time
 
+import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
@@ -38,9 +38,9 @@ movie_type = soup.find_all("div", {"class": "movie-misc"})
 for names, scores, starrings, movie_types in zip(name, score, starring, movie_type):
     dt = {}
     dt["name"] = names.get_text().strip()
-    dt["movie_type"] = movie_types.get_text().strip(" ")
+    dt["movie_type"] = str(movie_types.get_text().strip(" ")).replace(" ", "")
     dt["score"] = scores.get_text().strip(" ")
-    dt["starrings"] = starrings.get_text().strip(" ")
+    dt["starrings"] = str(starrings.get_text().strip(" ")).replace(" ", "")
     dt = json.dumps(dt, ensure_ascii=False, indent=4)
     with open("douban.json", "a", encoding="utf-8")as f:
         f.write(dt)
