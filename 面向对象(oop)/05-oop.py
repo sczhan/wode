@@ -32,28 +32,29 @@
 # # 对于任意输入的姓名,我们希望都用大写的方式保存
 # # 对于年龄,我们希望内部统一用整数保存
 # # x = property(fget, fset, fdel, doc)
-# class Person():
-#     """
-#     这是一个人,一个高尚的人
-#     他还有属性
-#     """
-#     # 函数名称可以任意
-#     def fget(self):
-#         return self.name*2
-#
-#     def fset(self, name):
-#         # 所有输入的姓名以大写形式保存
-#         self.name = name.upper()
-#
-#     def fdel(self):
-#         self.name = "noname"
-#
-#     name1 = property(fget, fset, fdel, "对name进行操作")
-#
-#
-# p = Person()
-# p.name1 = "tuling"
-# print(p.name1)
+class Person():
+    """
+    这是一个人,一个高尚的人
+    他还有属性
+    """
+    # 函数名称可以任意
+    def fget(self):
+        return self.name*2
+
+    def fset(self, name):
+        # 所有输入的姓名以大写形式保存
+        self.name = name.upper()
+
+    def fdel(self):
+        self.name = "noname"
+
+    name1 = property(fget, fset, fdel, "对name进行操作")
+
+
+p = Person()
+p.name1 = "tuling"
+print(p.name1)
+print("*" * 20)
 #
 #
 # # 类的内置函数举例

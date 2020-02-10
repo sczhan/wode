@@ -99,19 +99,20 @@ class Teacher(School_menber):
         super(Teacher, self).__init__(name, age, sex, role)
         global tea_num_id
         tea_num_id += 1
-        tea_id = course.school_name + "T" + str(course.code) +str(tea_num_id).zfill(2)
+        tea_id = course.school_name + "T" + str(course.code) + str(tea_num_id).zfill(2)
         self.id = tea_id
 
     def teach(self, course):
         print("我来这里讲{}课,我的id是{}".format(course.course, self.id))
 
     def record_mark(self, Date, course, obj, level):
-        obj.mark_list["Date" + Date] = level
+        obj.mark_list[str(course.course) + ": Date" + "学员: " + str(obj.name) + f": 第{Date}天 "] = level
 
 
 a = Students("小张", 18, "man", "student", Python)
 Python.enroll(a)
 a.study(Python)
+a.pay(Python)
 b = Students("小b", 18, "man", "student", Linux)
 Linux.enroll(b)
 b.study(Linux)
@@ -121,3 +122,8 @@ c.study(Linux)
 t = Teacher("小周", 30, "man", "Teacher", Python)
 Linux.hire(t)
 a.praise(t)
+t.record_mark(1, Python, a, "A")
+t.record_mark(2, Python, a, "c")
+print(a.course_list, a.mark_list)
+a.mark_check()
+a.out()

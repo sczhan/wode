@@ -171,11 +171,11 @@ def talk(self):
 
 
 # 利用type来创建一个类
-A = type("Aname", (object, ), {"class_say":say, "class_talk":talk})
-# 然后可以像正常方法访问一样使用类
-a = A()
-print(dir(a))
-a.class_say()
+# A = type("Aname", (object, ), {"class_say":say, "class_talk":talk})
+# # 然后可以像正常方法访问一样使用类
+# a = A()
+# print(dir(a))
+# a.class_say()
 
 
 # 元类演示
@@ -198,5 +198,6 @@ class Teather(object, metaclass=TilingMetaClass):
 
 t = Teather()
 print(t.__dict__)
+print(Teather.__dict__)
 t.id
 
