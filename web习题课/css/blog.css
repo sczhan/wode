@@ -25,10 +25,10 @@ ul{list-style: none}
 /*文章栏*/
 .text-c{
     width: 70%;
-    min-width: 1000px;
+    min-width: 800px;
     height: 980px;
     background-color: plum;
-    position: absolute;
+    position:absolute;
     float: left;
     margin: 8px 3px;
 }
@@ -46,7 +46,9 @@ ul{list-style: none}
 .r_lan{
     width: 29%;
     height: 980px;
+    min-width: 90px;
     background-color: greenyellow;
+    position: relative;
     float: right;
     margin: 8px 3px;
 }
