@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>显示图片</title>
+    <style type="text/css">
+    #shuzi1,#shuzi2{
+        display: none;
+    }
+    /*兄弟选择器/相邻选择器*/
+    /*#b1:hover + #shuzi1,#b2:hover + #shuzi2{*/
+    /*    display: block;*/
+    /*}*/
+    a{
+        /*去掉下划线*/
+        /*text-decoration: none;*/
+        /*下划线, 默认添加*/
+        /*text-decoration: underline;*/
+        /*上下划线*/
+        /*text-decoration: overline;*/
+        /*贯穿线*/
+        text-decoration: line-through;
+        /*闪烁线, 了解*/
+        /*text-decoration: blink;*/
+
+    }
+    a:link{
+        color: yellow;
+    }
+    /*匹配选择器 和 组选择器*/
+    #b1:hover~#shuzi1,#b2:hover~ #shuzi2{
+    color: blue;
+    display: block;
+    }
+    /*已访问的链接*/
+    a:visited{
+        color: red;
+    }
+
+    </style>
+</head>
+<body>
+    <a href="img/shuzi3.jpg" id="b1">数字</a>
+    <a href="img/递归.jpg" id="b2">递归</a>
+
+    <img id="shuzi1" src="img/shuzi3.jpg">
+    <img id="shuzi2" src="img/递归.jpg">
+</body>
+</html>

@@ -9,10 +9,10 @@ urllib  模块提供urlretrieve()  此模块可以进行音频文件下载
             显示当前下载进度
  data:(filename, headers)元组
 """
+import os
 import random
 from urllib import request
 
-import os
 import requests
 from lxml import etree
 

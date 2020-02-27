@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 0 auto;
+}
+.daohang{
+    width: 80%;
+    min-width: 1000px;
+    height: 100px;
+    position: relative;
+    background-color: khaki;
+}
+ul{list-style: none}
+/*中部*/
+.middle{
+    width: 80%;
+    min-width: 1000px;
+    height: 1000px;
+    position: relative;
+    background-color: palegreen;
+}
+
+/*文章栏*/
+.text-c{
+    width: 70%;
+    min-width: 1000px;
+    height: 980px;
+    background-color: plum;
+    position: absolute;
+    float: left;
+    margin: 8px 3px;
+}
+
+.text-c ul li span{
+    font-weight: bold;
+    color: blue;
+}
+
+.text-c ul li{
+    display: block;
+    margin: 20px 10px;
+}
+/*右侧栏*/
+.r_lan{
+    width: 29%;
+    height: 980px;
+    background-color: greenyellow;
+    float: right;
+    margin: 8px 3px;
+}
+
+/*博主*/
+.user_name{
+    width: 90%;
+    height: 320px;
+    margin: 5px auto;
+    background-color: slateblue;
+}
+.user_name ul li{
+    display: block;
+    margin: 10px;
+}
+
+/*文章分类*/
+.txt{
+    width: 90%;
+    height: 320px;
+    margin: 5px auto;
+    background-color: seagreen;
+}
+.txt ul li{
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+.txt ul li h2{
+    line-height: 80px;
+    text-align: center;
+}
+
+/*阅读排行*/
+.top{
+    width: 90%;
+    height: 320px;
+    margin: 5px auto;
+    background-color: pink;
+}
+/*导航栏*/
+.top-menu li{
+    float: left;
+    line-height: 100px;
+    margin: 0 50px;
+    font-size: 28px;
+}
+
+.top ul li{
+    line-height: 70px;
+    color: yellow;
+    text-align: center;
+}
+.top ul li a{
+    font-size: 25px;
+    color: salmon;
+    font-weight: bold;
+}
+
+/*底部*/
+.bt{
+    width: 80%;
+    height: 100px;
+    background-color: cyan;
+}
+
+.bt ul li{
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.bt ul li a{
+    line-height: 50px;
+}
+
+.bt ul li span{
+    line-height: 50px;
+}
