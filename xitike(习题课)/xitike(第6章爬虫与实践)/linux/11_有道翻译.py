@@ -1,10 +1,9 @@
 
-from urllib import request, parse
-
 import hashlib
 import json
 import random
 import time
+from urllib import request, parse
 
 
 def getMd5(value):

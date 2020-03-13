@@ -1,7 +1,6 @@
 
-from urllib import request
-
 import ssl
+from urllib import request
 
 # ssl免验证
 ssl._create_default_https_context = ssl._create_unverified_context

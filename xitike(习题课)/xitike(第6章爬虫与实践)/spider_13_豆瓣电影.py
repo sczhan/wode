@@ -4,8 +4,8 @@
 2. 每次多出现几部电影的信息
 """
 import json
-
 import time
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
