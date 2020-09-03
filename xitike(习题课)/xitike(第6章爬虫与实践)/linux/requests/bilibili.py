@@ -4,6 +4,8 @@ url = "https://api.bilibili.com/x/web-interface/search/type?context=&page=2&orde
 
 import json
 import os
+
+import random
 import requests
 
 
@@ -39,4 +41,6 @@ def downloadVideo(data):
 
 
 if __name__ == '__main__':
-    get_Info(1, 2)
+    # get_Info(1, 2)
+    print(random.randint(1, 10))
+    print(int(1100 /100)%10)
