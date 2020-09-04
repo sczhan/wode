@@ -180,3 +180,4 @@ while True:
             print("有{}条鱼被吃了".format(a))
             turtle.eat()
             fish.remove(each_fish)
+11111
